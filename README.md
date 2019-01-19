@@ -27,4 +27,5 @@ Special thanks to Dingo (A15) and stryth (A14) for keeping this up to date when 
 Translations (Thank you!):
 - Chinese (Simplified): =O.W.L.S=o_Onion
 
+## Preview
 ![Preview](About/Preview.png)
