@@ -1,0 +1,901 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- SQUARE FLOOR LIGHTS -->
+
+  <ThingDef Name="FloorLightSquare" ParentName="BuildingBase" Abstract="True">
+    <thingClass>Building</thingClass>
+    <altitudeLayer>Floor</altitudeLayer>
+    <passability>Standable</passability>
+    <building>
+      <isInert>true</isInert>
+      <isEdifice>false</isEdifice>
+    </building>
+    <statBases>
+      <MaxHitPoints>75</MaxHitPoints>
+      <WorkToBuild>300</WorkToBuild>
+      <Flammability>1.0</Flammability>
+      <Beauty>2</Beauty>
+    </statBases>
+    <selectable>true</selectable>
+    <size>(1,1)</size>
+    <costList>
+      <Steel>12</Steel>
+    </costList>
+    <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+    <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+    <designationCategory>Lamps</designationCategory>
+    <graphicData>
+      <graphicClass>Graphic_Single</graphicClass>
+      <damageData>
+        <rect>(0.2,0.2,0.6,0.6)</rect>
+      </damageData>
+    </graphicData>
+    <comps>
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerTrader</compClass>
+        <basePowerConsumption>24</basePowerConsumption>
+        <shortCircuitInRain>false</shortCircuitInRain>
+      </li>
+      <li Class="CompProperties_Flickable"/>
+    </comps>
+    <rotatable>false</rotatable>
+    <clearBuildingArea>false</clearBuildingArea>
+    <researchPrerequisites><li>Electricity</li></researchPrerequisites>
+  </ThingDef>
+
+  <ThingDef ParentName="FloorLightSquare">
+    <defName>FloorLightSquare</defName>
+    <label>floor light (square)</label>
+    <description>Square floor light integraded into the ground. Waterproof and quite pretty.</description>
+    <graphicData>
+      <texPath>Things/Building/Lamps/FloorLightSquare</texPath>
+    </graphicData>
+    <comps>
+      <li Class="CompProperties_Glower">
+        <glowRadius>12</glowRadius>
+        <glowColor>(217,217,208,0)</glowColor>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="FloorLightSquare">
+    <defName>FloorLightSquare_Purple</defName>
+    <label>floor light (square) purple</label>
+    <description>Square floor light integraded into the ground with a purple lamp. Waterproof and quite pretty.</description>
+    <graphicData>
+      <texPath>Things/Building/Lamps/FloorLightSquare_Purple</texPath>
+    </graphicData>
+    <comps>
+      <li Class="CompProperties_Glower">
+        <glowRadius>12</glowRadius>
+        <glowColor>(236,10,248,0)</glowColor>
+      </li>
+    </comps>
+    <researchPrerequisites><li>ColoredLights</li></researchPrerequisites>
+  </ThingDef>
+
+  <ThingDef ParentName="FloorLightSquare">
+    <defName>FloorLightSquare_Red</defName>
+    <label>floor light (square) red</label>
+    <description>Square floor light integraded into the ground with a red lamp. Waterproof and quite pretty.</description>
+    <graphicData>
+      <texPath>Things/Building/Lamps/FloorLightSquare_Red</texPath>
+    </graphicData>
+    <comps>
+      <li Class="CompProperties_Glower">
+        <glowRadius>12</glowRadius>
+        <glowColor>(217,0,0,0)</glowColor>
+      </li>
+    </comps>
+    <researchPrerequisites><li>ColoredLights</li></researchPrerequisites>
+  </ThingDef>
+
+  <ThingDef ParentName="FloorLightSquare">
+    <defName>FloorLightSquare_Green</defName>
+    <label>floor light (square) green</label>
+    <description>Square floor light integraded into the ground with a green lamp. Waterproof and quite pretty.</description>
+        <graphicData>
+      <texPath>Things/Building/Lamps/FloorLightSquare_Green</texPath>
+    </graphicData>
+    <comps>
+      <li Class="CompProperties_Glower">
+        <glowRadius>12</glowRadius>
+        <glowColor>(0,217,0,0)</glowColor>
+      </li>
+    </comps>
+    <researchPrerequisites><li>ColoredLights</li></researchPrerequisites>
+  </ThingDef>
+
+  <ThingDef ParentName="FloorLightSquare">
+    <defName>FloorLightSquare_Blue</defName>
+    <label>floor light (square) blue</label>
+    <description>Square floor light integraded into the ground with a blue lamp. Waterproof and quite pretty.</description>
+    <graphicData>
+      <texPath>Things/Building/Lamps/FloorLightSquare_Blue</texPath>
+    </graphicData>
+    <comps>
+      <li Class="CompProperties_Glower">
+        <glowRadius>12</glowRadius>
+        <glowColor>(0,0,217,0)</glowColor>
+      </li>
+    </comps>
+    <researchPrerequisites><li>ColoredLights</li></researchPrerequisites>
+  </ThingDef>
+
+  <ThingDef ParentName="FloorLightSquare">
+    <defName>FloorLightSquare_Yellow</defName>
+    <label>floor light (square) yellow</label>
+    <description>Square floor light integraded into the ground with a yellow lamp. Waterproof and quite pretty.</description>
+    <graphicData>
+      <texPath>Things/Building/Lamps/FloorLightSquare_Yellow</texPath>
+    </graphicData>
+    <comps>
+      <li Class="CompProperties_Glower">
+        <glowRadius>12</glowRadius>
+        <glowColor>(217,217,0,0)</glowColor>
+      </li>
+    </comps>
+    <researchPrerequisites><li>ColoredLights</li></researchPrerequisites>
+  </ThingDef>
+
+
+
+  <!-- STRIPE FLOOR LIGHTS -->
+
+  <ThingDef Name="FloorLightStripe" ParentName="BuildingBase" Abstract="True">
+    <thingClass>Building</thingClass>
+    <altitudeLayer>Floor</altitudeLayer>
+    <passability>Standable</passability>
+    <building>
+      <isInert>true</isInert>
+      <isEdifice>false</isEdifice>
+    </building>
+    <statBases>
+      <MaxHitPoints>75</MaxHitPoints>
+      <WorkToBuild>150</WorkToBuild>
+      <Flammability>1.0</Flammability>
+      <Beauty>1</Beauty>
+    </statBases>
+    <selectable>true</selectable>
+    <size>(1,1)</size>
+    <costList>
+      <Steel>6</Steel>
+    </costList>
+    <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+    <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+    <designationCategory>Lamps</designationCategory>
+    <graphicData>
+      <graphicClass>Graphic_Single</graphicClass>
+      <damageData>
+        <rect>(0.2,0.2,0.6,0.6)</rect>
+      </damageData>
+    </graphicData>
+    <comps>
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerTrader</compClass>
+        <basePowerConsumption>12</basePowerConsumption>
+        <shortCircuitInRain>false</shortCircuitInRain>
+      </li>
+      <li Class="CompProperties_Flickable"/>
+    </comps>
+    <rotatable>true</rotatable>
+    <clearBuildingArea>false</clearBuildingArea>
+    <researchPrerequisites><li>Electricity</li></researchPrerequisites>
+  </ThingDef>
+
+  <ThingDef ParentName="FloorLightStripe">
+    <defName>FloorLightStripe</defName>
+    <label>floor light (stripe)</label>
+    <description>Stripe floor light integraded into the ground. Waterproof and quite pretty.</description>
+    <graphicData>
+      <texPath>Things/Building/Lamps/FloorLightStripe</texPath>
+    </graphicData>
+    <comps>
+      <li Class="CompProperties_Glower">
+        <glowRadius>6</glowRadius>
+        <glowColor>(217,217,208,0)</glowColor>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="FloorLightStripe">
+    <defName>FloorLightStripe_Purple</defName>
+    <label>floor light (stripe) purple</label>
+    <description>Stripe floor light integraded into the ground with a purple lamp. Waterproof and quite pretty.</description>
+        <graphicData>
+      <texPath>Things/Building/Lamps/FloorLightStripe_Purple</texPath>
+    </graphicData>
+    <comps>
+      <li Class="CompProperties_Glower">
+        <glowRadius>6</glowRadius>
+        <glowColor>(236,10,248,0)</glowColor>
+      </li>
+    </comps>
+    <researchPrerequisites><li>ColoredLights</li></researchPrerequisites>
+  </ThingDef>
+
+  <ThingDef ParentName="FloorLightStripe">
+    <defName>FloorLightStripe_Red</defName>
+    <label>floor light (stripe) red</label>
+    <description>Stripe floor light integraded into the ground with a red lamp. Waterproof and quite pretty.</description>
+    <graphicData>
+      <texPath>Things/Building/Lamps/FloorLightStripe_Red</texPath>
+    </graphicData>
+    <comps>
+      <li Class="CompProperties_Glower">
+        <glowRadius>6</glowRadius>
+        <glowColor>(217,0,0,0)</glowColor>
+      </li>
+    </comps>
+    <researchPrerequisites><li>ColoredLights</li></researchPrerequisites>
+  </ThingDef>
+
+  <ThingDef ParentName="FloorLightStripe">
+    <defName>FloorLightStripe_Green</defName>
+    <label>floor light (stripe) green</label>
+    <description>Stripe floor light integraded into the ground with a green lamp. Waterproof and quite pretty.</description>
+    <graphicData>
+      <texPath>Things/Building/Lamps/FloorLightStripe_Green</texPath>
+    </graphicData>
+    <comps>
+      <li Class="CompProperties_Glower">
+        <glowRadius>6</glowRadius>
+        <glowColor>(0,217,0,0)</glowColor>
+      </li>
+    </comps>
+    <researchPrerequisites><li>ColoredLights</li></researchPrerequisites>
+  </ThingDef>
+
+  <ThingDef ParentName="FloorLightStripe">
+    <defName>FloorLightStripe_Blue</defName>
+    <label>floor light (stripe) blue</label>
+    <description>Stripe floor light integraded into the ground with a blue lamp. Waterproof and quite pretty.</description>
+    <graphicData>
+      <texPath>Things/Building/Lamps/FloorLightStripe_Blue</texPath>
+    </graphicData>
+    <comps>
+      <li Class="CompProperties_Glower">
+        <glowRadius>6</glowRadius>
+        <glowColor>(0,0,217,0)</glowColor>
+      </li>
+    </comps>
+    <researchPrerequisites><li>ColoredLights</li></researchPrerequisites>
+  </ThingDef>
+
+  <ThingDef ParentName="FloorLightStripe">
+    <defName>FloorLightStripe_Yellow</defName>
+    <label>floor light (stripe) yellow</label>
+    <description>Stripe floor light integraded into the ground with a yellow lamp. Waterproof and quite pretty.</description>
+    <graphicData>
+      <texPath>Things/Building/Lamps/FloorLightStripe_Yellow</texPath>
+    </graphicData>
+    <comps>
+      <li Class="CompProperties_Glower">
+        <glowRadius>6</glowRadius>
+        <glowColor>(217,217,0,0)</glowColor>
+      </li>
+    </comps>
+    <researchPrerequisites><li>ColoredLights</li></researchPrerequisites>
+  </ThingDef>
+
+
+
+  <!-- SMALL STRIPE FLOOR LIGHTS -->
+
+  <ThingDef Name="FloorLightSmallStripe" ParentName="BuildingBase" Abstract="True">
+    <thingClass>Building</thingClass>
+    <altitudeLayer>Floor</altitudeLayer>
+    <passability>Standable</passability>
+    <building>
+      <isInert>true</isInert>
+      <isEdifice>false</isEdifice>
+    </building>
+    <statBases>
+      <MaxHitPoints>75</MaxHitPoints>
+      <WorkToBuild>75</WorkToBuild>
+      <Flammability>1.0</Flammability>
+      <Beauty>1</Beauty>
+    </statBases>
+    <selectable>true</selectable>
+    <size>(1,1)</size>
+    <costList>
+      <Steel>4</Steel>
+    </costList>
+    <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+    <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+    <designationCategory>Lamps</designationCategory>
+    <graphicData>
+      <graphicClass>Graphic_Single</graphicClass>
+      <damageData>
+        <rect>(0.2,0.2,0.6,0.6)</rect>
+      </damageData>
+    </graphicData>
+    <comps>
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerTrader</compClass>
+        <basePowerConsumption>4</basePowerConsumption>
+        <shortCircuitInRain>false</shortCircuitInRain>
+      </li>
+      <li Class="CompProperties_Flickable"/>
+    </comps>
+    <rotatable>true</rotatable>
+    <clearBuildingArea>false</clearBuildingArea>
+    <researchPrerequisites><li>Electricity</li></researchPrerequisites>
+  </ThingDef>
+
+  <ThingDef ParentName="FloorLightSmallStripe">
+    <defName>FloorLightSmallStripe</defName>
+    <label>floor light (small stripe)</label>
+    <description>Small stripe floor light integraded into the ground. Waterproof and quite pretty.</description>
+    <graphicData>
+      <texPath>Things/Building/Lamps/FloorLightSmallStripe</texPath>
+    </graphicData>
+    <comps>
+      <li Class="CompProperties_Glower">
+        <glowRadius>3</glowRadius>
+        <glowColor>(217,217,208,0)</glowColor>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="FloorLightSmallStripe">
+    <defName>FloorLightSmallStripe_Purple</defName>
+    <label>floor light (small stripe) purple</label>
+    <description>Small stripe floor light integraded into the ground with a purple lamp. Waterproof and quite pretty.</description>
+    <graphicData>
+      <texPath>Things/Building/Lamps/FloorLightSmallStripe_Purple</texPath>
+    </graphicData>
+    <comps>
+      <li Class="CompProperties_Glower">
+        <glowRadius>3</glowRadius>
+        <glowColor>(236,10,248,0)</glowColor>
+      </li>
+    </comps>
+    <researchPrerequisites><li>ColoredLights</li></researchPrerequisites>
+  </ThingDef>
+
+  <ThingDef ParentName="FloorLightSmallStripe">
+    <defName>FloorLightSmallStripe_Red</defName>
+    <label>floor light (small stripe) red</label>
+    <description>Small stripe floor light integraded into the ground with a red lamp. Waterproof and quite pretty.</description>
+    <graphicData>
+      <texPath>Things/Building/Lamps/FloorLightSmallStripe_Red</texPath>
+    </graphicData>
+    <comps>
+      <li Class="CompProperties_Glower">
+        <glowRadius>3</glowRadius>
+        <glowColor>(217,0,0,0)</glowColor>
+      </li>
+    </comps>
+    <researchPrerequisites><li>ColoredLights</li></researchPrerequisites>
+  </ThingDef>
+
+  <ThingDef ParentName="FloorLightSmallStripe">
+    <defName>FloorLightSmallStripe_Green</defName>
+    <label>floor light (small stripe) green</label>
+    <description>Small stripe floor light integraded into the ground with a green lamp. Waterproof and quite pretty.</description>
+    <graphicData>
+      <texPath>Things/Building/Lamps/FloorLightSmallStripe_Green</texPath>
+    </graphicData>
+    <comps>
+      <li Class="CompProperties_Glower">
+        <glowRadius>3</glowRadius>
+        <glowColor>(0,217,0,0)</glowColor>
+      </li>
+    </comps>
+    <researchPrerequisites><li>ColoredLights</li></researchPrerequisites>
+  </ThingDef>
+
+  <ThingDef ParentName="FloorLightSmallStripe">
+    <defName>FloorLightSmallStripe_Blue</defName>
+    <label>floor light (small stripe) blue</label>
+    <description>Small stripe floor light integraded into the ground with a blue lamp. Waterproof and quite pretty.</description>
+    <graphicData>
+      <texPath>Things/Building/Lamps/FloorLightSmallStripe_Blue</texPath>
+    </graphicData>
+    <comps>
+      <li Class="CompProperties_Glower">
+        <glowRadius>3</glowRadius>
+        <glowColor>(0,0,217,0)</glowColor>
+      </li>
+    </comps>
+    <researchPrerequisites><li>ColoredLights</li></researchPrerequisites>
+  </ThingDef>
+
+  <ThingDef ParentName="FloorLightSmallStripe">
+    <defName>FloorLightSmallStripe_Yellow</defName>
+    <label>floor light (small stripe) yellow</label>
+    <description>Small stripe floor light integraded into the ground with a yellow lamp. Waterproof and quite pretty.</description>
+    <graphicData>
+      <texPath>Things/Building/Lamps/FloorLightSmallStripe_Yellow</texPath>
+    </graphicData>
+    <comps>
+      <li Class="CompProperties_Glower">
+        <glowRadius>3</glowRadius>
+        <glowColor>(217,217,0,0)</glowColor>
+      </li>
+    </comps>
+    <researchPrerequisites><li>ColoredLights</li></researchPrerequisites>
+  </ThingDef>
+
+
+
+  <!-- PLUS FLOOR LIGHTS -->
+
+  <ThingDef Name="FloorLightPlus" ParentName="BuildingBase" Abstract="True">
+    <thingClass>Building</thingClass>
+    <altitudeLayer>Floor</altitudeLayer>
+    <passability>Standable</passability>
+    <building>
+      <isInert>true</isInert>
+      <isEdifice>false</isEdifice>
+    </building>
+    <statBases>
+      <MaxHitPoints>75</MaxHitPoints>
+      <WorkToBuild>225</WorkToBuild>
+      <Flammability>1.0</Flammability>
+      <Beauty>2</Beauty>
+    </statBases>
+    <selectable>true</selectable>
+    <size>(1,1)</size>
+    <costList>
+      <Steel>9</Steel>
+    </costList>
+    <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+    <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+    <designationCategory>Lamps</designationCategory>
+    <graphicData>
+      <graphicClass>Graphic_Single</graphicClass>
+      <damageData>
+        <rect>(0.2,0.2,0.6,0.6)</rect>
+      </damageData>
+    </graphicData>
+    <comps>
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerTrader</compClass>
+        <basePowerConsumption>18</basePowerConsumption>
+        <shortCircuitInRain>false</shortCircuitInRain>
+      </li>
+      <li Class="CompProperties_Flickable"/>
+    </comps>
+    <rotatable>false</rotatable>
+    <clearBuildingArea>false</clearBuildingArea>
+    <researchPrerequisites><li>Electricity</li></researchPrerequisites>
+  </ThingDef>
+
+  <ThingDef ParentName="FloorLightPlus">
+    <defName>FloorLightPlus</defName>
+    <label>floor light (plus)</label>
+    <description>Plus floor light integraded into the ground. Waterproof and quite pretty.</description>
+    <graphicData>
+      <texPath>Things/Building/Lamps/FloorLightPlus</texPath>
+    </graphicData>
+    <comps>
+      <li Class="CompProperties_Glower">
+        <glowRadius>9</glowRadius>
+        <glowColor>(217,217,208,0)</glowColor>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="FloorLightPlus">
+    <defName>FloorLightPlus_Purple</defName>
+    <label>floor light (plus) purple</label>
+    <description>Plus floor light integraded into the ground with a purple lamp. Waterproof and quite pretty.</description>
+    <graphicData>
+      <texPath>Things/Building/Lamps/FloorLightPlus_Purple</texPath>
+    </graphicData>
+    <comps>
+      <li Class="CompProperties_Glower">
+        <glowRadius>9</glowRadius>
+        <glowColor>(236,10,248,0)</glowColor>
+      </li>
+    </comps>
+    <researchPrerequisites><li>ColoredLights</li></researchPrerequisites>
+  </ThingDef>
+
+  <ThingDef ParentName="FloorLightPlus">
+    <defName>FloorLightPlus_Red</defName>
+    <label>floor light (plus) red</label>
+    <description>Plus floor light integraded into the ground with a red lamp. Waterproof and quite pretty.</description>
+    <graphicData>
+      <texPath>Things/Building/Lamps/FloorLightPlus_Red</texPath>
+    </graphicData>
+    <comps>
+      <li Class="CompProperties_Glower">
+        <glowRadius>9</glowRadius>
+        <glowColor>(217,0,0,0)</glowColor>
+      </li>
+    </comps>
+    <researchPrerequisites><li>ColoredLights</li></researchPrerequisites>
+  </ThingDef>
+
+  <ThingDef ParentName="FloorLightPlus">
+    <defName>FloorLightPlus_Green</defName>
+    <label>floor light (plus) green</label>
+    <description>Plus floor light integraded into the ground with a green lamp. Waterproof and quite pretty.</description>
+    <graphicData>
+      <texPath>Things/Building/Lamps/FloorLightPlus_Green</texPath>
+    </graphicData>
+    <comps>
+      <li Class="CompProperties_Glower">
+        <glowRadius>9</glowRadius>
+        <glowColor>(0,217,0,0)</glowColor>
+      </li>
+    </comps>
+    <researchPrerequisites><li>ColoredLights</li></researchPrerequisites>
+  </ThingDef>
+
+  <ThingDef ParentName="FloorLightPlus">
+    <defName>FloorLightPlus_Blue</defName>
+    <label>floor light (plus) blue</label>
+    <description>Plus floor light integraded into the ground with a blue lamp. Waterproof and quite pretty.</description>
+    <graphicData>
+      <texPath>Things/Building/Lamps/FloorLightPlus_Blue</texPath>
+    </graphicData>
+    <comps>
+      <li Class="CompProperties_Glower">
+        <glowRadius>9</glowRadius>
+        <glowColor>(0,0,217,0)</glowColor>
+      </li>
+    </comps>
+    <researchPrerequisites><li>ColoredLights</li></researchPrerequisites>
+  </ThingDef>
+
+  <ThingDef ParentName="FloorLightPlus">
+    <defName>FloorLightPlus_Yellow</defName>
+    <label>floor light (plus) yellow</label>
+    <description>Plus floor light integraded into the ground with a yellow lamp. Waterproof and quite pretty.</description>
+    <graphicData>
+      <texPath>Things/Building/Lamps/FloorLightPlus_Yellow</texPath>
+    </graphicData>
+    <comps>
+      <li Class="CompProperties_Glower">
+        <glowRadius>9</glowRadius>
+        <glowColor>(217,217,0,0)</glowColor>
+      </li>
+    </comps>
+    <researchPrerequisites><li>ColoredLights</li></researchPrerequisites>
+  </ThingDef>
+
+
+
+  <!-- CORNER FLOOR LIGHTS -->
+
+  <ThingDef Name="FloorLightCorner" ParentName="BuildingBase" Abstract="True">
+    <thingClass>Building</thingClass>
+    <altitudeLayer>Floor</altitudeLayer>
+    <passability>Standable</passability>
+    <building>
+      <isInert>true</isInert>
+      <isEdifice>false</isEdifice>
+    </building>
+    <statBases>
+      <MaxHitPoints>75</MaxHitPoints>
+      <WorkToBuild>225</WorkToBuild>
+      <Flammability>1.0</Flammability>
+      <Beauty>2</Beauty>
+    </statBases>
+    <selectable>true</selectable>
+    <size>(1,1)</size>
+    <costList>
+      <Steel>9</Steel>
+    </costList>
+    <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+    <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+    <designationCategory>Lamps</designationCategory>
+    <graphicData>
+      <graphicClass>Graphic_Single</graphicClass>
+      <damageData>
+        <rect>(0.2,0.2,0.6,0.6)</rect>
+      </damageData>
+    </graphicData>
+    <comps>
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerTrader</compClass>
+        <basePowerConsumption>18</basePowerConsumption>
+        <shortCircuitInRain>false</shortCircuitInRain>
+      </li>
+      <li Class="CompProperties_Flickable"/>
+    </comps>
+    <rotatable>true</rotatable>
+    <clearBuildingArea>false</clearBuildingArea>
+    <researchPrerequisites><li>Electricity</li></researchPrerequisites>
+  </ThingDef>
+
+  <ThingDef ParentName="FloorLightCorner">
+    <defName>FloorLightCorner</defName>
+    <label>floor light (corner)</label>
+    <description>Corner floor light integraded into the ground. Waterproof and quite pretty.</description>
+    <graphicData>
+      <texPath>Things/Building/Lamps/FloorLightCorner</texPath>
+    </graphicData>
+    <comps>
+      <li Class="CompProperties_Glower">
+        <glowRadius>9</glowRadius>
+        <glowColor>(217,217,208,0)</glowColor>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="FloorLightCorner">
+    <defName>FloorLightCorner_Purple</defName>
+    <label>floor light (corner) purple</label>
+    <description>Corner floor light integraded into the ground with a purple lamp. Waterproof and quite pretty.</description>
+    <graphicData>
+      <texPath>Things/Building/Lamps/FloorLightCorner_Purple</texPath>
+    </graphicData>
+    <comps>
+      <li Class="CompProperties_Glower">
+        <glowRadius>9</glowRadius>
+        <glowColor>(236,10,248,0)</glowColor>
+      </li>
+    </comps>
+    <researchPrerequisites><li>ColoredLights</li></researchPrerequisites>
+  </ThingDef>
+
+  <ThingDef ParentName="FloorLightCorner">
+    <defName>FloorLightCorner_Red</defName>
+    <label>floor light (corner) red</label>
+    <description>Corner floor light integraded into the ground with a red lamp. Waterproof and quite pretty.</description>
+    <graphicData>
+      <texPath>Things/Building/Lamps/FloorLightCorner_Red</texPath>
+    </graphicData>
+    <comps>
+      <li Class="CompProperties_Glower">
+        <glowRadius>9</glowRadius>
+        <glowColor>(217,0,0,0)</glowColor>
+      </li>
+    </comps>
+    <researchPrerequisites><li>ColoredLights</li></researchPrerequisites>
+  </ThingDef>
+
+  <ThingDef ParentName="FloorLightCorner">
+    <defName>FloorLightCorner_Green</defName>
+    <label>floor light (corner) green</label>
+    <description>Corner floor light integraded into the ground with a green lamp. Waterproof and quite pretty.</description>
+    <graphicData>
+      <texPath>Things/Building/Lamps/FloorLightCorner_Green</texPath>
+    </graphicData>
+    <comps>
+      <li Class="CompProperties_Glower">
+        <glowRadius>9</glowRadius>
+        <glowColor>(0,217,0,0)</glowColor>
+      </li>
+    </comps>
+    <researchPrerequisites><li>ColoredLights</li></researchPrerequisites>
+  </ThingDef>
+
+  <ThingDef ParentName="FloorLightCorner">
+    <defName>FloorLightCorner_Blue</defName>
+    <label>floor light (corner) blue</label>
+    <description>Corner floor light integraded into the ground with a blue lamp. Waterproof and quite pretty.</description>
+    <graphicData>
+      <texPath>Things/Building/Lamps/FloorLightCorner_Blue</texPath>
+    </graphicData>
+    <comps>
+      <li Class="CompProperties_Glower">
+        <glowRadius>9</glowRadius>
+        <glowColor>(0,0,217,0)</glowColor>
+      </li>
+    </comps>
+    <researchPrerequisites><li>ColoredLights</li></researchPrerequisites>
+  </ThingDef>
+
+  <ThingDef ParentName="FloorLightCorner">
+    <defName>FloorLightCorner_Yellow</defName>
+    <label>floor light (corner) yellow</label>
+    <description>Corner floor light integraded into the ground with a yellow lamp. Waterproof and quite pretty.</description>
+    <graphicData>
+      <texPath>Things/Building/Lamps/FloorLightCorner_Yellow</texPath>
+    </graphicData>
+    <comps>
+      <li Class="CompProperties_Glower">
+        <glowRadius>9</glowRadius>
+        <glowColor>(217,217,0,0)</glowColor>
+      </li>
+    </comps>
+    <researchPrerequisites><li>ColoredLights</li></researchPrerequisites>
+  </ThingDef>
+
+
+
+    <!-- SMALL CORNER FLOOR LIGHTS -->
+
+  <ThingDef Name="FloorLightCornerSmall" ParentName="BuildingBase" Abstract="True">
+    <thingClass>Building</thingClass>
+    <altitudeLayer>Floor</altitudeLayer>
+    <passability>Standable</passability>
+    <building>
+      <isInert>true</isInert>
+      <isEdifice>false</isEdifice>
+    </building>
+    <statBases>
+      <MaxHitPoints>75</MaxHitPoints>
+      <WorkToBuild>125</WorkToBuild>
+      <Flammability>1.0</Flammability>
+      <Beauty>2</Beauty>
+    </statBases>
+    <selectable>true</selectable>
+    <size>(1,1)</size>
+    <costList>
+      <Steel>6</Steel>
+    </costList>
+    <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+    <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+    <designationCategory>Lamps</designationCategory>
+    <graphicData>
+      <graphicClass>Graphic_Single</graphicClass>
+      <damageData>
+        <rect>(0.2,0.2,0.6,0.6)</rect>
+      </damageData>
+    </graphicData>
+    <comps>
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerTrader</compClass>
+        <basePowerConsumption>7</basePowerConsumption>
+        <shortCircuitInRain>false</shortCircuitInRain>
+      </li>
+      <li Class="CompProperties_Flickable"/>
+    </comps>
+    <rotatable>true</rotatable>
+    <clearBuildingArea>false</clearBuildingArea>
+    <researchPrerequisites><li>Electricity</li></researchPrerequisites>
+  </ThingDef>
+
+  <ThingDef ParentName="FloorLightCornerSmall">
+    <defName>FloorLightCornerSmall</defName>
+    <label>floor light (small corner)</label>
+    <description>Small corner floor light integraded into the ground. Waterproof and quite pretty.</description>
+    <graphicData>
+      <texPath>Things/Building/Lamps/FloorLightSmallCorner</texPath>
+    </graphicData>
+    <comps>
+      <li Class="CompProperties_Glower">
+        <glowRadius>5</glowRadius>
+        <glowColor>(217,217,208,0)</glowColor>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="FloorLightCornerSmall">
+    <defName>FloorLightCornerSmall_Purple</defName>
+    <label>floor light (small corner) purple</label>
+    <description>Small corner floor light integraded into the ground with a purple lamp. Waterproof and quite pretty.</description>
+    <graphicData>
+      <texPath>Things/Building/Lamps/FloorLightSmallCorner_Purple</texPath>
+    </graphicData>
+    <comps>
+      <li Class="CompProperties_Glower">
+        <glowRadius>5</glowRadius>
+        <glowColor>(236,10,248,0)</glowColor>
+      </li>
+    </comps>
+    <researchPrerequisites><li>ColoredLights</li></researchPrerequisites>
+  </ThingDef>
+
+  <ThingDef ParentName="FloorLightCornerSmall">
+    <defName>FloorLightCornerSmall_Red</defName>
+    <label>floor light (small corner) red</label>
+    <description>Small corner floor light integraded into the ground with a red lamp. Waterproof and quite pretty.</description>
+    <graphicData>
+      <texPath>Things/Building/Lamps/FloorLightSmallCorner_Red</texPath>
+    </graphicData>
+    <comps>
+      <li Class="CompProperties_Glower">
+        <glowRadius>5</glowRadius>
+        <glowColor>(217,0,0,0)</glowColor>
+      </li>
+    </comps>
+    <researchPrerequisites><li>ColoredLights</li></researchPrerequisites>
+  </ThingDef>
+
+  <ThingDef ParentName="FloorLightCornerSmall">
+    <defName>FloorLightCornerSmall_Green</defName>
+    <label>floor light (small corner) green</label>
+    <description>Small corner floor light integraded into the ground with a green lamp. Waterproof and quite pretty.</description>
+    <graphicData>
+      <texPath>Things/Building/Lamps/FloorLightSmallCorner_Green</texPath>
+    </graphicData>
+    <comps>
+      <li Class="CompProperties_Glower">
+        <glowRadius>5</glowRadius>
+        <glowColor>(0,217,0,0)</glowColor>
+      </li>
+    </comps>
+    <researchPrerequisites><li>ColoredLights</li></researchPrerequisites>
+  </ThingDef>
+
+  <ThingDef ParentName="FloorLightCornerSmall">
+    <defName>FloorLightCornerSmall_Blue</defName>
+    <label>floor light (small corner) blue</label>
+    <description>Small corner floor light integraded into the ground with a blue lamp. Waterproof and quite pretty.</description>
+    <graphicData>
+      <texPath>Things/Building/Lamps/FloorLightSmallCorner_Blue</texPath>
+    </graphicData>
+    <comps>
+      <li Class="CompProperties_Glower">
+        <glowRadius>5</glowRadius>
+        <glowColor>(0,0,217,0)</glowColor>
+      </li>
+    </comps>
+    <researchPrerequisites><li>ColoredLights</li></researchPrerequisites>
+  </ThingDef>
+
+  <ThingDef ParentName="FloorLightCornerSmall">
+    <defName>FloorLightCornerSmall_Yellow</defName>
+    <label>floor light (small corner) yellow</label>
+    <description>Small corner floor light integraded into the ground with a yellow lamp. Waterproof and quite pretty.</description>
+    <graphicData>
+      <texPath>Things/Building/Lamps/FloorLightSmallCorner_Yellow</texPath>
+    </graphicData>
+    <comps>
+      <li Class="CompProperties_Glower">
+        <glowRadius>5</glowRadius>
+        <glowColor>(217,217,0,0)</glowColor>
+      </li>
+    </comps>
+    <researchPrerequisites><li>ColoredLights</li></researchPrerequisites>
+  </ThingDef>
+
+
+  <!-- FLOOR SQUARE -->
+
+  <ThingDef Name="FloorTileLightSquare" ParentName="BuildingBase" Abstract="True">
+    <thingClass>Building</thingClass>
+    <altitudeLayer>FloorEmplacement</altitudeLayer>
+    <passability>Standable</passability>
+    <building>
+      <isInert>true</isInert>
+      <isEdifice>false</isEdifice>
+    </building>
+    <statBases>
+      <MaxHitPoints>285</MaxHitPoints>
+      <WorkToBuild>35</WorkToBuild>
+      <Flammability>1.0</Flammability>
+      <Beauty>1</Beauty>
+    </statBases>
+    <selectable>true</selectable>
+    <size>(1,1)</size>
+    <placingDraggableDimensions>2</placingDraggableDimensions>
+    <costList>
+      <Steel>3</Steel>
+    </costList>
+    <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+    <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+    <designationCategory>Floors</designationCategory>
+    <graphicData>
+      <graphicClass>Graphic_Single</graphicClass>
+      <damageData>
+        <rect>(0.2,0.2,0.6,0.6)</rect>
+      </damageData>
+    </graphicData>
+    <rotatable>false</rotatable>
+    <clearBuildingArea>false</clearBuildingArea>
+    <researchPrerequisites><li>Electricity</li></researchPrerequisites>
+  </ThingDef>
+
+  <ThingDef ParentName="FloorTileLightSquare">
+    <defName>FloorTileLightSquare</defName>
+    <label>square floor lamp</label>
+    <description>Square floor light tile. Almost like a metal tile with a light! Waterproof and other floor tiles can not be put on top of this.</description>
+    <graphicData>
+      <texPath>Things/Building/Lamps/FloorLightSquare</texPath>
+    </graphicData>
+    <comps>
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerTrader</compClass>
+        <transmitsPower>true</transmitsPower>
+        <basePowerConsumption>2</basePowerConsumption>
+        <shortCircuitInRain>false</shortCircuitInRain>
+      </li>
+      <li Class="CompProperties_Flickable"/>
+      <li Class="CompProperties_Glower">
+        <glowRadius>1</glowRadius>
+        <glowColor>(217,217,208,0)</glowColor>
+      </li>
+    </comps>
+  </ThingDef>
+
+</Defs>

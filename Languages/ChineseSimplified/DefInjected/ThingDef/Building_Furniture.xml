@@ -1,0 +1,247 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- SQUARE 地板灯S -->
+
+  <FloorLightSquare.label>地板灯(方块)</FloorLightSquare.label>
+  <FloorLightSquare.description>正方形地板灯。防水,非常漂亮.</FloorLightSquare.description>
+  <FloorLightSquare_Blueprint.label>地板灯(方块) (蓝图)</FloorLightSquare_Blueprint.label>
+  <FloorLightSquare_Frame.label>地板灯(方块) (建造中)</FloorLightSquare_Frame.label>
+  <FloorLightSquare_Frame.description>正方形地板灯。防水,非常漂亮.</FloorLightSquare_Frame.description>
+
+  <FloorLightSquare_Purple.label>地板灯(方块)紫色</FloorLightSquare_Purple.label>
+  <FloorLightSquare_Purple.description>紫色的正方形地板灯。防水,非常漂亮.</FloorLightSquare_Purple.description>
+  <FloorLightSquare_Purple_Blueprint.label>地板灯(方块) 紫色 (蓝图)</FloorLightSquare_Purple_Blueprint.label>
+  <FloorLightSquare_Purple_Frame.label>地板灯(方块) 紫色 (建造中)</FloorLightSquare_Purple_Frame.label>
+  <FloorLightSquare_Purple_Frame.description>紫色的正方形地板灯。防水,非常漂亮</FloorLightSquare_Purple_Frame.description>
+
+  <FloorLightSquare_Red.label>地板灯 (方块)红色</FloorLightSquare_Red.label>
+  <FloorLightSquare_Red.description>红色的正方形地板灯。防水,非常漂亮</FloorLightSquare_Red.description>
+  <FloorLightSquare_Red_Blueprint.label>地板灯 (方块)红色(蓝图)</FloorLightSquare_Red_Blueprint.label>
+  <FloorLightSquare_Red_Frame.label>地板灯 (方块)红色(建造中)</FloorLightSquare_Red_Frame.label>
+  <FloorLightSquare_Red_Frame.description>红色的正方形地板灯。防水,非常漂亮</FloorLightSquare_Red_Frame.description>
+
+  <FloorLightSquare_Green.label>地板灯 (方块)绿色</FloorLightSquare_Green.label>
+  <FloorLightSquare_Green.description>绿色的正方形地板灯。防水,非常漂亮</FloorLightSquare_Green.description>
+  <FloorLightSquare_Green_Blueprint.label>地板灯 (方块)绿色(蓝图)</FloorLightSquare_Green_Blueprint.label>
+  <FloorLightSquare_Green_Frame.label>地板灯 (方块)绿色(建造中)</FloorLightSquare_Green_Frame.label>
+  <FloorLightSquare_Green_Frame.description>绿色的正方形地板灯。防水,非常漂亮</FloorLightSquare_Green_Frame.description>
+
+  <FloorLightSquare_Blue.label>地板灯 (方块)蓝色</FloorLightSquare_Blue.label>
+  <FloorLightSquare_Blue.description>蓝色的正方形地板灯。防水,非常漂亮.</FloorLightSquare_Blue.description>
+  <FloorLightSquare_Blue_Blueprint.label>地板灯 (方块)蓝色(蓝图)</FloorLightSquare_Blue_Blueprint.label>
+  <FloorLightSquare_Blue_Frame.label>地板灯 (方块)蓝色(建造中)</FloorLightSquare_Blue_Frame.label>
+  <FloorLightSquare_Blue_Frame.description>蓝色的正方形地板灯。防水,非常漂亮.</FloorLightSquare_Blue_Frame.description>
+
+  <FloorLightSquare_Yellow.label>地板灯 (方块)黄色</FloorLightSquare_Yellow.label>
+  <FloorLightSquare_Yellow.description>黄色的正方形地板灯。防水,非常漂亮.</FloorLightSquare_Yellow.description>
+  <FloorLightSquare_Yellow_Blueprint.label>地板灯 (方块)黄色(蓝图)</FloorLightSquare_Yellow_Blueprint.label>
+  <FloorLightSquare_Yellow_Frame.label>地板灯 (方块)黄色(建造中)</FloorLightSquare_Yellow_Frame.label>
+  <FloorLightSquare_Yellow_Frame.description>黄色的正方形地板灯。防水,非常漂亮.</FloorLightSquare_Yellow_Frame.description>
+
+
+  <!-- STRIPE 地板灯S -->
+
+  <FloorLightStripe.label>地板灯 (粗长条)</FloorLightStripe.label>
+  <FloorLightStripe.description>粗长条地板灯。防水,非常漂亮.</FloorLightStripe.description>
+  <FloorLightStripe_Blueprint.label>地板灯 (粗长条) (蓝图)</FloorLightStripe_Blueprint.label>
+  <FloorLightStripe_Frame.label>地板灯 (粗长条) (建造中)</FloorLightStripe_Frame.label>
+  <FloorLightStripe_Frame.description>粗长条地板灯。防水,非常漂亮.</FloorLightStripe_Frame.description>
+
+  <FloorLightStripe_Purple.label>地板灯 (粗长条)紫色</FloorLightStripe_Purple.label>
+  <FloorLightStripe_Purple.description>粗长条 地板灯地板灯。防水,非常漂亮.</FloorLightStripe_Purple.description>
+  <FloorLightStripe_Purple_Blueprint.label>地板灯 (粗长条)紫色(蓝图)</FloorLightStripe_Purple_Blueprint.label>
+  <FloorLightStripe_Purple_Frame.label>地板灯 (粗长条)紫色(建造中)</FloorLightStripe_Purple_Frame.label>
+  <FloorLightStripe_Purple_Frame.description>粗长条 地板灯地板灯。防水,非常漂亮.</FloorLightStripe_Purple_Frame.description>
+
+  <FloorLightStripe_Red.label>地板灯 (粗长条)红色</FloorLightStripe_Red.label>
+  <FloorLightStripe_Red.description>红色粗长条 地板灯。防水,非常漂亮.</FloorLightStripe_Red.description>
+  <FloorLightStripe_Red_Blueprint.label>地板灯 (粗长条)红色(蓝图)</FloorLightStripe_Red_Blueprint.label>
+  <FloorLightStripe_Red_Frame.label>地板灯 (粗长条)红色(建造中)</FloorLightStripe_Red_Frame.label>
+  <FloorLightStripe_Red_Frame.description>红色粗长条 地板灯。防水,非常漂亮.</FloorLightStripe_Red_Frame.description>
+
+  <FloorLightStripe_Green.label>地板灯 (粗长条)绿色</FloorLightStripe_Green.label>
+  <FloorLightStripe_Green.description>绿色粗长条 地板灯，防水,非常漂亮.</FloorLightStripe_Green.description>
+  <FloorLightStripe_Green_Blueprint.label>地板灯 (粗长条)绿色(蓝图)</FloorLightStripe_Green_Blueprint.label>
+  <FloorLightStripe_Green_Frame.label>地板灯 (粗长条)绿色(建造中)</FloorLightStripe_Green_Frame.label>
+  <FloorLightStripe_Green_Frame.description>绿色粗长条 地板灯，防水,非常漂亮.</FloorLightStripe_Green_Frame.description>
+
+  <FloorLightStripe_Blue.label>地板灯 (粗长条)蓝色</FloorLightStripe_Blue.label>
+  <FloorLightStripe_Blue.description>蓝色粗长条 地板灯，防水,非常漂亮.</FloorLightStripe_Blue.description>
+  <FloorLightStripe_Blue_Blueprint.label>地板灯 (粗长条)蓝色(蓝图)</FloorLightStripe_Blue_Blueprint.label>
+  <FloorLightStripe_Blue_Frame.label>地板灯 (粗长条)蓝色(建造中)</FloorLightStripe_Blue_Frame.label>
+  <FloorLightStripe_Blue_Frame.description>蓝色粗长条 地板灯，防水,非常漂亮.</FloorLightStripe_Blue_Frame.description>
+
+  <FloorLightStripe_Yellow.label>地板灯 (粗长条)黄色</FloorLightStripe_Yellow.label>
+  <FloorLightStripe_Yellow.description>黄色粗长条 地板灯，防水,非常漂亮.</FloorLightStripe_Yellow.description>
+  <FloorLightStripe_Yellow_Blueprint.label>地板灯 (粗长条)黄色(蓝图)</FloorLightStripe_Yellow_Blueprint.label>
+  <FloorLightStripe_Yellow_Frame.label>地板灯 (粗长条)黄色(建造中)</FloorLightStripe_Yellow_Frame.label>
+  <FloorLightStripe_Yellow_Frame.description>黄色粗长条 地板灯 ，防水,非常漂亮.</FloorLightStripe_Yellow_Frame.description>
+
+
+  <!-- 细长条 地板灯S -->
+
+  <FloorLightSmallStripe.label>地板灯 (细长条)</FloorLightSmallStripe.label>
+  <FloorLightSmallStripe.description>细长条地板灯 ，防水,非常漂亮.</FloorLightSmallStripe.description>
+  <FloorLightSmallStripe_Blueprint.label>地板灯 (细长条) (蓝图)</FloorLightSmallStripe_Blueprint.label>
+  <FloorLightSmallStripe_Frame.label>地板灯 (细长条) (建造中)</FloorLightSmallStripe_Frame.label>
+  <FloorLightSmallStripe_Frame.description>细长条 地板灯 ，防水,非常漂亮.</FloorLightSmallStripe_Frame.description>
+
+  <FloorLightSmallStripe_Purple.label>地板灯 (细长条)紫色</FloorLightSmallStripe_Purple.label>
+  <FloorLightSmallStripe_Purple.description>紫色细长条 地板灯 ，防水,非常漂亮.</FloorLightSmallStripe_Purple.description>
+  <FloorLightSmallStripe_Purple_Blueprint.label>地板灯 (细长条)紫色(蓝图)</FloorLightSmallStripe_Purple_Blueprint.label>
+  <FloorLightSmallStripe_Purple_Frame.label>地板灯 (细长条)紫色(建造中)</FloorLightSmallStripe_Purple_Frame.label>
+  <FloorLightSmallStripe_Purple_Frame.description>紫色细长条 地板灯，防水,非常漂亮.</FloorLightSmallStripe_Purple_Frame.description>
+
+  <FloorLightSmallStripe_Red.label>地板灯 (细长条)红色</FloorLightSmallStripe_Red.label>
+  <FloorLightSmallStripe_Red.description>红色细长条 地板灯，防水,非常漂亮.</FloorLightSmallStripe_Red.description>
+  <FloorLightSmallStripe_Red_Blueprint.label>地板灯 (细长条)红色(蓝图)</FloorLightSmallStripe_Red_Blueprint.label>
+  <FloorLightSmallStripe_Red_Frame.label>地板灯 (细长条)红色(建造中)</FloorLightSmallStripe_Red_Frame.label>
+  <FloorLightSmallStripe_Red_Frame.description>红色细长条 地板灯，防水,非常漂亮.</FloorLightSmallStripe_Red_Frame.description>
+
+  <FloorLightSmallStripe_Green.label>地板灯 (细长条)绿色</FloorLightSmallStripe_Green.label>
+  <FloorLightSmallStripe_Green.description>绿色细长条 地板灯，防水,非常漂亮.</FloorLightSmallStripe_Green.description>
+  <FloorLightSmallStripe_Green_Blueprint.label>地板灯 (细长条)绿色(蓝图)</FloorLightSmallStripe_Green_Blueprint.label>
+  <FloorLightSmallStripe_Green_Frame.label>地板灯 (细长条)绿色(建造中)</FloorLightSmallStripe_Green_Frame.label>
+  <FloorLightSmallStripe_Green_Frame.description>绿色细长条地板灯，防水,非常漂亮.</FloorLightSmallStripe_Green_Frame.description>
+
+  <FloorLightSmallStripe_Blue.label>地板灯 (细长条)蓝色</FloorLightSmallStripe_Blue.label>
+  <FloorLightSmallStripe_Blue.description>蓝色细长条地板灯，防水,非常漂亮.</FloorLightSmallStripe_Blue.description>
+  <FloorLightSmallStripe_Blue_Blueprint.label>地板灯 (细长条)蓝色(蓝图)</FloorLightSmallStripe_Blue_Blueprint.label>
+  <FloorLightSmallStripe_Blue_Frame.label>地板灯 (细长条)蓝色(建造中)</FloorLightSmallStripe_Blue_Frame.label>
+  <FloorLightSmallStripe_Blue_Frame.description>蓝色细长条 地板灯，防水,非常漂亮.</FloorLightSmallStripe_Blue_Frame.description>
+
+  <FloorLightSmallStripe_Yellow.label>地板灯 (细长条)黄色</FloorLightSmallStripe_Yellow.label>
+  <FloorLightSmallStripe_Yellow.description>黄色细长条 地板灯，防水,非常漂亮.</FloorLightSmallStripe_Yellow.description>
+  <FloorLightSmallStripe_Yellow_Blueprint.label>地板灯 (细长条)黄色(蓝图)</FloorLightSmallStripe_Yellow_Blueprint.label>
+  <FloorLightSmallStripe_Yellow_Frame.label>地板灯 (细长条)黄色(建造中)</FloorLightSmallStripe_Yellow_Frame.label>
+  <FloorLightSmallStripe_Yellow_Frame.description>黄色细长条 地板灯，防水,非常漂亮.</FloorLightSmallStripe_Yellow_Frame.description>
+
+
+  <!-- PLUS 地板灯S -->
+
+  <FloorLightPlus.label>地板灯 (十字形)</FloorLightPlus.label>
+  <FloorLightPlus.description>十字形地板灯 ，防水,非常漂亮.</FloorLightPlus.description>
+  <FloorLightPlus_Blueprint.label>地板灯 (十字形) (蓝图)</FloorLightPlus_Blueprint.label>
+  <FloorLightPlus_Frame.label>地板灯 (十字形) (建造中)</FloorLightPlus_Frame.label>
+  <FloorLightPlus_Frame.description>十字形地板灯 ，防水,非常漂亮.</FloorLightPlus_Frame.description>
+
+  <FloorLightPlus_Purple.label>地板灯 (十字形)紫色</FloorLightPlus_Purple.label>
+  <FloorLightPlus_Purple.description>紫色十字形地板灯，防水,非常漂亮.</FloorLightPlus_Purple.description>
+  <FloorLightPlus_Purple_Blueprint.label>地板灯 (十字形)紫色(蓝图)</FloorLightPlus_Purple_Blueprint.label>
+  <FloorLightPlus_Purple_Frame.label>地板灯 (十字形)紫色(建造中)</FloorLightPlus_Purple_Frame.label>
+  <FloorLightPlus_Purple_Frame.description>紫色十字形地板灯，防水,非常漂亮.</FloorLightPlus_Purple_Frame.description>
+
+  <FloorLightPlus_Red.label>地板灯 (十字形)红色</FloorLightPlus_Red.label>
+  <FloorLightPlus_Red.description>红色十字形地板灯，防水,非常漂亮.</FloorLightPlus_Red.description>
+  <FloorLightPlus_Red_Blueprint.label>地板灯 (十字形)红色(蓝图)</FloorLightPlus_Red_Blueprint.label>
+  <FloorLightPlus_Red_Frame.label>地板灯 (十字形)红色(建造中)</FloorLightPlus_Red_Frame.label>
+  <FloorLightPlus_Red_Frame.description>红色十字形地板灯，防水,非常漂亮.</FloorLightPlus_Red_Frame.description>
+
+  <FloorLightPlus_Green.label>地板灯 (十字形)绿色</FloorLightPlus_Green.label>
+  <FloorLightPlus_Green.description>绿色十字形地板灯，防水,非常漂亮.</FloorLightPlus_Green.description>
+  <FloorLightPlus_Green_Blueprint.label>地板灯 (十字形)绿色(蓝图)</FloorLightPlus_Green_Blueprint.label>
+  <FloorLightPlus_Green_Frame.label>地板灯 (十字形)绿色(建造中)</FloorLightPlus_Green_Frame.label>
+  <FloorLightPlus_Green_Frame.description>十字形地板灯，防水,非常漂亮.</FloorLightPlus_Green_Frame.description>
+
+  <FloorLightPlus_Blue.label>地板灯 (十字形)蓝色</FloorLightPlus_Blue.label>
+  <FloorLightPlus_Blue.description>蓝色十字形地板灯，防水,非常漂亮.</FloorLightPlus_Blue.description>
+  <FloorLightPlus_Blue_Blueprint.label>地板灯 (十字形)蓝色(蓝图)</FloorLightPlus_Blue_Blueprint.label>
+  <FloorLightPlus_Blue_Frame.label>地板灯 (十字形)蓝色(建造中)</FloorLightPlus_Blue_Frame.label>
+  <FloorLightPlus_Blue_Frame.description>十字形地板灯，防水,非常漂亮.</FloorLightPlus_Blue_Frame.description>
+
+  <FloorLightPlus_Yellow.label>地板灯 (十字形)黄色</FloorLightPlus_Yellow.label>
+  <FloorLightPlus_Yellow.description>黄色十字形地板灯，防水,非常漂亮.</FloorLightPlus_Yellow.description>
+  <FloorLightPlus_Yellow_Blueprint.label>地板灯 (十字形)黄色(蓝图)</FloorLightPlus_Yellow_Blueprint.label>
+  <FloorLightPlus_Yellow_Frame.label>地板灯 (十字形)黄色(建造中)</FloorLightPlus_Yellow_Frame.label>
+  <FloorLightPlus_Yellow_Frame.description>黄色十字形地板灯，防水,非常漂亮.</FloorLightPlus_Yellow_Frame.description>
+
+
+  <!-- CORNER 地板灯S -->
+
+  <FloorLightCorner.label>地板灯 (边角)</FloorLightCorner.label>
+  <FloorLightCorner.description>边角地板灯 ，防水,非常漂亮.</FloorLightCorner.description>
+  <FloorLightCorner_Blueprint.label>地板灯 (边角) (蓝图)</FloorLightCorner_Blueprint.label>
+  <FloorLightCorner_Frame.label>地板灯 (边角) (建造中)</FloorLightCorner_Frame.label>
+  <FloorLightCorner_Frame.description>边角地板灯 ，防水,非常漂亮.</FloorLightCorner_Frame.description>
+
+  <FloorLightCorner_Purple.label>地板灯 (边角)紫色</FloorLightCorner_Purple.label>
+  <FloorLightCorner_Purple.description>紫色边角地板灯 ，防水,非常漂亮.</FloorLightCorner_Purple.description>
+  <FloorLightCorner_Purple_Blueprint.label>地板灯 (边角)紫色(蓝图)</FloorLightCorner_Purple_Blueprint.label>
+  <FloorLightCorner_Purple_Frame.label>地板灯 (边角)紫色(建造中)</FloorLightCorner_Purple_Frame.label>
+  <FloorLightCorner_Purple_Frame.description>紫色边角地板灯 ，防水,非常漂亮.</FloorLightCorner_Purple_Frame.description>
+
+  <FloorLightCorner_Red.label>地板灯 (边角)红色</FloorLightCorner_Red.label>
+  <FloorLightCorner_Red.description>红色边角地板灯  ，防水,非常漂亮.</FloorLightCorner_Red.description>
+  <FloorLightCorner_Red_Blueprint.label>地板灯 (边角)红色(蓝图)</FloorLightCorner_Red_Blueprint.label>
+  <FloorLightCorner_Red_Frame.label>地板灯 (边角)红色(建造中)</FloorLightCorner_Red_Frame.label>
+  <FloorLightCorner_Red_Frame.description>红色边角地板灯 ，防水,非常漂亮.</FloorLightCorner_Red_Frame.description>
+
+  <FloorLightCorner_Green.label>地板灯 (边角)绿色</FloorLightCorner_Green.label>
+  <FloorLightCorner_Green.description>绿色边角地板灯 ，防水,非常漂亮.</FloorLightCorner_Green.description>
+  <FloorLightCorner_Green_Blueprint.label>地板灯 (边角)绿色(蓝图)</FloorLightCorner_Green_Blueprint.label>
+  <FloorLightCorner_Green_Frame.label>地板灯 (边角)绿色(建造中)</FloorLightCorner_Green_Frame.label>
+  <FloorLightCorner_Green_Frame.description>绿色边角地板灯 ，防水,非常漂亮.</FloorLightCorner_Green_Frame.description>
+
+  <FloorLightCorner_Blue.label>地板灯 (边角)蓝色</FloorLightCorner_Blue.label>
+  <FloorLightCorner_Blue.description>蓝色边角地板灯 ，防水,非常漂亮.</FloorLightCorner_Blue.description>
+  <FloorLightCorner_Blue_Blueprint.label>地板灯 (边角)蓝色(蓝图)</FloorLightCorner_Blue_Blueprint.label>
+  <FloorLightCorner_Blue_Frame.label>地板灯 (边角)蓝色(建造中)</FloorLightCorner_Blue_Frame.label>
+  <FloorLightCorner_Blue_Frame.description>蓝色边角地板灯 ，防水,非常漂亮.</FloorLightCorner_Blue_Frame.description>
+
+  <FloorLightCorner_Yellow.label>地板灯 (边角)黄色</FloorLightCorner_Yellow.label>
+  <FloorLightCorner_Yellow.description>黄色边角地板灯  ，防水,非常漂亮.</FloorLightCorner_Yellow.description>
+  <FloorLightCorner_Yellow_Blueprint.label>地板灯 (边角)黄色(蓝图)</FloorLightCorner_Yellow_Blueprint.label>
+  <FloorLightCorner_Yellow_Frame.label>地板灯 (边角)黄色(建造中)</FloorLightCorner_Yellow_Frame.label>
+  <FloorLightCorner_Yellow_Frame.description>黄色边角地板灯 ，防水,非常漂亮.</FloorLightCorner_Yellow_Frame.description>
+
+
+  <!-- SMALL CORNER 地板灯S -->
+
+  <FloorLightCornerSmall.label>地板灯 (小边角)</FloorLightCornerSmall.label>
+  <FloorLightCornerSmall.description>小边角 地板灯 ，防水,非常漂亮.</FloorLightCornerSmall.description>
+  <FloorLightCornerSmall_Blueprint.label>地板灯 (小边角) (蓝图)</FloorLightCornerSmall_Blueprint.label>
+  <FloorLightCornerSmall_Frame.label>地板灯 (小边角) (建造中)</FloorLightCornerSmall_Frame.label>
+  <FloorLightCornerSmall_Frame.description>小边角 地板灯 ,防水,非常漂亮.</FloorLightCornerSmall_Frame.description>
+
+  <FloorLightCornerSmall_Purple.label>地板灯 (小边角)紫色</FloorLightCornerSmall_Purple.label>
+  <FloorLightCornerSmall_Purple.description>紫色小边角 地板灯 ,防水,非常漂亮.</FloorLightCornerSmall_Purple.description>
+  <FloorLightCornerSmall_Purple_Blueprint.label>地板灯 (小边角)紫色 (蓝图)</FloorLightCornerSmall_Purple_Blueprint.label>
+  <FloorLightCornerSmall_Purple_Frame.label>地板灯 (小边角)紫色 (建造中)</FloorLightCornerSmall_Purple_Frame.label>
+  <FloorLightCornerSmall_Purple_Frame.description>紫色小边角 地板灯 ,防水,非常漂亮.</FloorLightCornerSmall_Purple_Frame.description>
+
+  <FloorLightCornerSmall_Red.label>地板灯 (小边角)红色</FloorLightCornerSmall_Red.label>
+  <FloorLightCornerSmall_Red.description>红色小边角 地板灯 ,防水,非常漂亮.</FloorLightCornerSmall_Red.description>
+  <FloorLightCornerSmall_Red_Blueprint.label>地板灯 (小边角)红色 (蓝图)</FloorLightCornerSmall_Red_Blueprint.label>
+  <FloorLightCornerSmall_Red_Frame.label>地板灯 (小边角)红色 (建造中)</FloorLightCornerSmall_Red_Frame.label>
+  <FloorLightCornerSmall_Red_Frame.description>红色小边角 地板灯 ,防水,非常漂亮.</FloorLightCornerSmall_Red_Frame.description>
+
+  <FloorLightCornerSmall_Green.label>地板灯 (小边角)绿色</FloorLightCornerSmall_Green.label>
+  <FloorLightCornerSmall_Green.description>绿色小边角 地板灯 ,防水,非常漂亮.</FloorLightCornerSmall_Green.description>
+  <FloorLightCornerSmall_Green_Blueprint.label>地板灯 (小边角)绿色 (蓝图)</FloorLightCornerSmall_Green_Blueprint.label>
+  <FloorLightCornerSmall_Green_Frame.label>地板灯 (小边角)绿色 (建造中)</FloorLightCornerSmall_Green_Frame.label>
+  <FloorLightCornerSmall_Green_Frame.description>绿色小边角 地板灯 ,防水,非常漂亮.</FloorLightCornerSmall_Green_Frame.description>
+
+  <FloorLightCornerSmall_Blue.label>地板灯 (小边角)蓝色</FloorLightCornerSmall_Blue.label>
+  <FloorLightCornerSmall_Blue.description>蓝色小边角 地板灯 ,防水,非常漂亮.</FloorLightCornerSmall_Blue.description>
+  <FloorLightCornerSmall_Blue_Blueprint.label>地板灯 (小边角)蓝色 (蓝图)</FloorLightCornerSmall_Blue_Blueprint.label>
+  <FloorLightCornerSmall_Blue_Frame.label>地板灯 (小边角)蓝色 (建造中)</FloorLightCornerSmall_Blue_Frame.label>
+  <FloorLightCornerSmall_Blue_Frame.description>蓝色小边角 地板灯 ,防水,非常漂亮.</FloorLightCornerSmall_Blue_Frame.description>
+
+  <FloorLightCornerSmall_Yellow.label>地板灯 (小边角)黄色</FloorLightCornerSmall_Yellow.label>
+  <FloorLightCornerSmall_Yellow.description>黄色小边角 地板灯  ,防水,非常漂亮.</FloorLightCornerSmall_Yellow.description>
+  <FloorLightCornerSmall_Yellow_Blueprint.label>地板灯 (小边角)黄色 (蓝图)</FloorLightCornerSmall_Yellow_Blueprint.label>
+  <FloorLightCornerSmall_Yellow_Frame.label>地板灯 (小边角)黄色 (建造中)</FloorLightCornerSmall_Yellow_Frame.label>
+  <FloorLightCornerSmall_Yellow_Frame.description>黄色小边角 地板灯 ,防水,非常漂亮.</FloorLightCornerSmall_Yellow_Frame.description>
+
+
+  <!-- FLOOR SQUARE -->
+
+  <FloorTileLightSquare.label>方块地板灯</FloorTileLightSquare.label>
+  <FloorTileLightSquare.description>方块地板灯. 就像一个有光的金属砖！能防水但其他地砖不能放在上面.</FloorTileLightSquare.description>
+  <FloorTileLightSquare_Blueprint.label>方块地板灯 (蓝图)</FloorTileLightSquare_Blueprint.label>
+  <FloorTileLightSquare_Frame.label>方块地板灯(建造中)</FloorTileLightSquare_Frame.label>
+  <FloorTileLightSquare_Frame.description>方块地板灯. 就像一个有光的金属砖！能防水但其他地砖不能放在上面.</FloorTileLightSquare_Frame.description>
+
+
+</LanguageData>
