@@ -3,15 +3,19 @@
   <name>Floor Lights - 1.0</name>
   <author>Temeez</author>
   <url>https://ludeon.com/forums/index.php?topic=9103.0</url>
-  <targetVersion>1.0.0</targetVersion>
+  <supportedVersions>
+    <li>1.0</li>
+  </supportedVersions>
   <description>Lights (lamps) that are integrated into the ground. These lamps used to have their power cable hidden underground, but various rim-rodents kept eating them so the cable placement had to be revisited. It is possible to build on top of the floor lights.
 
 Shapes:
 - Square | Power consumption: 24 | Radius: 12
 - Plus | Power consumption: 18 | Radius: 9
 - Corner | Power consumption: 18 | Radius: 9
+- Inverse corner | Power consumption: 6 | Radius: 3
 - Stripe | Power consumption: 12 | Radius: 6
-- Small Corner | Power consumption: 7 | Radius: 5
+- Small corner | Power consumption: 7 | Radius: 5
+- Small inverse corner | Power consumption: 2 | Radius: 1
 - Small stripe | Power consumption: 4 | Radius: 3
 
 - Floor lamp tile | Power consumption: 2 | Radius: 1

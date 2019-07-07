@@ -701,7 +701,147 @@
 
 
 
-    <!-- SMALL CORNER FLOOR LIGHTS -->
+<!-- INVERSE CORNER FLOOR LIGHTS -->
+
+  <ThingDef Name="FloorLightInverseCorner" ParentName="BuildingBase" Abstract="True">
+    <thingClass>Building</thingClass>
+    <altitudeLayer>Floor</altitudeLayer>
+    <passability>Standable</passability>
+    <building>
+      <isInert>true</isInert>
+      <isEdifice>false</isEdifice>
+    </building>
+    <statBases>
+      <MaxHitPoints>75</MaxHitPoints>
+      <WorkToBuild>200</WorkToBuild>
+      <Flammability>1.0</Flammability>
+      <Beauty>2</Beauty>
+    </statBases>
+    <selectable>true</selectable>
+    <size>(1,1)</size>
+    <costList>
+      <Steel>3</Steel>
+    </costList>
+    <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+    <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+    <designationCategory>Lamps</designationCategory>
+    <graphicData>
+      <graphicClass>Graphic_Single</graphicClass>
+      <damageData>
+        <rect>(0.2,0.2,0.6,0.6)</rect>
+      </damageData>
+    </graphicData>
+    <comps>
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerTrader</compClass>
+        <basePowerConsumption>6</basePowerConsumption>
+        <shortCircuitInRain>false</shortCircuitInRain>
+      </li>
+      <li Class="CompProperties_Flickable"/>
+    </comps>
+    <rotatable>true</rotatable>
+    <clearBuildingArea>false</clearBuildingArea>
+    <researchPrerequisites><li>Electricity</li></researchPrerequisites>
+  </ThingDef>
+
+  <ThingDef ParentName="FloorLightInverseCorner">
+    <defName>FloorLightInverseCorner</defName>
+    <label>floor light (inverse corner)</label>
+    <description>Inverse corner floor light integraded into the ground. Waterproof and quite pretty.</description>
+    <graphicData>
+      <texPath>Things/Building/Lamps/FloorLightInverseCorner</texPath>
+    </graphicData>
+    <comps>
+      <li Class="CompProperties_Glower">
+        <glowRadius>3</glowRadius>
+        <glowColor>(217,217,208,0)</glowColor>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="FloorLightInverseCorner">
+    <defName>FloorLightInverseCorner_Purple</defName>
+    <label>floor light (inverse corner) purple</label>
+    <description>Inverse corner floor light integraded into the ground with a purple lamp. Waterproof and quite pretty.</description>
+    <graphicData>
+      <texPath>Things/Building/Lamps/FloorLightInverseCorner_Purple</texPath>
+    </graphicData>
+    <comps>
+      <li Class="CompProperties_Glower">
+        <glowRadius>3</glowRadius>
+        <glowColor>(236,10,248,0)</glowColor>
+      </li>
+    </comps>
+    <researchPrerequisites><li>ColoredLights</li></researchPrerequisites>
+  </ThingDef>
+
+  <ThingDef ParentName="FloorLightInverseCorner">
+    <defName>FloorLightInverseCorner_Red</defName>
+    <label>floor light (inverse corner) red</label>
+    <description>Inverse corner floor light integraded into the ground with a red lamp. Waterproof and quite pretty.</description>
+    <graphicData>
+      <texPath>Things/Building/Lamps/FloorLightInverseCorner_Red</texPath>
+    </graphicData>
+    <comps>
+      <li Class="CompProperties_Glower">
+        <glowRadius>3</glowRadius>
+        <glowColor>(217,0,0,0)</glowColor>
+      </li>
+    </comps>
+    <researchPrerequisites><li>ColoredLights</li></researchPrerequisites>
+  </ThingDef>
+
+  <ThingDef ParentName="FloorLightInverseCorner">
+    <defName>FloorLightInverseCorner_Green</defName>
+    <label>floor light (inverse corner) green</label>
+    <description>Inverse corner floor light integraded into the ground with a green lamp. Waterproof and quite pretty.</description>
+    <graphicData>
+      <texPath>Things/Building/Lamps/FloorLightInverseCorner_Green</texPath>
+    </graphicData>
+    <comps>
+      <li Class="CompProperties_Glower">
+        <glowRadius>3</glowRadius>
+        <glowColor>(0,217,0,0)</glowColor>
+      </li>
+    </comps>
+    <researchPrerequisites><li>ColoredLights</li></researchPrerequisites>
+  </ThingDef>
+
+  <ThingDef ParentName="FloorLightInverseCorner">
+    <defName>FloorLightInverseCorner_Blue</defName>
+    <label>floor light (inverse corner) blue</label>
+    <description>Inverse corner floor light integraded into the ground with a blue lamp. Waterproof and quite pretty.</description>
+    <graphicData>
+      <texPath>Things/Building/Lamps/FloorLightInverseCorner_Blue</texPath>
+    </graphicData>
+    <comps>
+      <li Class="CompProperties_Glower">
+        <glowRadius>3</glowRadius>
+        <glowColor>(0,0,217,0)</glowColor>
+      </li>
+    </comps>
+    <researchPrerequisites><li>ColoredLights</li></researchPrerequisites>
+  </ThingDef>
+
+  <ThingDef ParentName="FloorLightInverseCorner">
+    <defName>FloorLightInverseCorner_Yellow</defName>
+    <label>floor light (inverse corner) yellow</label>
+    <description>Inverse corner floor light integraded into the ground with a yellow lamp. Waterproof and quite pretty.</description>
+    <graphicData>
+      <texPath>Things/Building/Lamps/FloorLightInverseCorner_Yellow</texPath>
+    </graphicData>
+    <comps>
+      <li Class="CompProperties_Glower">
+        <glowRadius>3</glowRadius>
+        <glowColor>(217,217,0,0)</glowColor>
+      </li>
+    </comps>
+    <researchPrerequisites><li>ColoredLights</li></researchPrerequisites>
+  </ThingDef>
+
+
+
+<!-- SMALL CORNER FLOOR LIGHTS -->
 
   <ThingDef Name="FloorLightCornerSmall" ParentName="BuildingBase" Abstract="True">
     <thingClass>Building</thingClass>
@@ -838,6 +978,147 @@
     </comps>
     <researchPrerequisites><li>ColoredLights</li></researchPrerequisites>
   </ThingDef>
+
+
+
+<!-- SMALL CORNER FLOOR LIGHTS -->
+
+  <ThingDef Name="FloorLightInverseCornerSmall" ParentName="BuildingBase" Abstract="True">
+    <thingClass>Building</thingClass>
+    <altitudeLayer>Floor</altitudeLayer>
+    <passability>Standable</passability>
+    <building>
+      <isInert>true</isInert>
+      <isEdifice>false</isEdifice>
+    </building>
+    <statBases>
+      <MaxHitPoints>75</MaxHitPoints>
+      <WorkToBuild>100</WorkToBuild>
+      <Flammability>1.0</Flammability>
+      <Beauty>2</Beauty>
+    </statBases>
+    <selectable>true</selectable>
+    <size>(1,1)</size>
+    <costList>
+      <Steel>2</Steel>
+    </costList>
+    <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+    <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+    <designationCategory>Lamps</designationCategory>
+    <graphicData>
+      <graphicClass>Graphic_Single</graphicClass>
+      <damageData>
+        <rect>(0.2,0.2,0.6,0.6)</rect>
+      </damageData>
+    </graphicData>
+    <comps>
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerTrader</compClass>
+        <basePowerConsumption>2</basePowerConsumption>
+        <shortCircuitInRain>false</shortCircuitInRain>
+      </li>
+      <li Class="CompProperties_Flickable"/>
+    </comps>
+    <rotatable>true</rotatable>
+    <clearBuildingArea>false</clearBuildingArea>
+    <researchPrerequisites><li>Electricity</li></researchPrerequisites>
+  </ThingDef>
+
+  <ThingDef ParentName="FloorLightInverseCornerSmall">
+    <defName>FloorLightInverseCornerSmall</defName>
+    <label>floor light (small inverse corner)</label>
+    <description>Small inverse corner floor light integraded into the ground. Waterproof and quite pretty.</description>
+    <graphicData>
+      <texPath>Things/Building/Lamps/FloorLightSmallInverseCorner</texPath>
+    </graphicData>
+    <comps>
+      <li Class="CompProperties_Glower">
+        <glowRadius>1</glowRadius>
+        <glowColor>(217,217,208,0)</glowColor>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="FloorLightInverseCornerSmall">
+    <defName>FloorLightInverseCornerSmall_Purple</defName>
+    <label>floor light (small inverse corner) purple</label>
+    <description>Small inverse corner floor light integraded into the ground with a purple lamp. Waterproof and quite pretty.</description>
+    <graphicData>
+      <texPath>Things/Building/Lamps/FloorLightSmallInverseCorner_Purple</texPath>
+    </graphicData>
+    <comps>
+      <li Class="CompProperties_Glower">
+        <glowRadius>1</glowRadius>
+        <glowColor>(236,10,248,0)</glowColor>
+      </li>
+    </comps>
+    <researchPrerequisites><li>ColoredLights</li></researchPrerequisites>
+  </ThingDef>
+
+  <ThingDef ParentName="FloorLightInverseCornerSmall">
+    <defName>FloorLightInverseCornerSmall_Red</defName>
+    <label>floor light (small inverse corner) red</label>
+    <description>Small inverse corner floor light integraded into the ground with a red lamp. Waterproof and quite pretty.</description>
+    <graphicData>
+      <texPath>Things/Building/Lamps/FloorLightSmallInverseCorner_Red</texPath>
+    </graphicData>
+    <comps>
+      <li Class="CompProperties_Glower">
+        <glowRadius>1</glowRadius>
+        <glowColor>(217,0,0,0)</glowColor>
+      </li>
+    </comps>
+    <researchPrerequisites><li>ColoredLights</li></researchPrerequisites>
+  </ThingDef>
+
+  <ThingDef ParentName="FloorLightInverseCornerSmall">
+    <defName>FloorLightInverseCornerSmall_Green</defName>
+    <label>floor light (small inverse corner) green</label>
+    <description>Small inverse corner floor light integraded into the ground with a green lamp. Waterproof and quite pretty.</description>
+    <graphicData>
+      <texPath>Things/Building/Lamps/FloorLightSmallInverseCorner_Green</texPath>
+    </graphicData>
+    <comps>
+      <li Class="CompProperties_Glower">
+        <glowRadius>1</glowRadius>
+        <glowColor>(0,217,0,0)</glowColor>
+      </li>
+    </comps>
+    <researchPrerequisites><li>ColoredLights</li></researchPrerequisites>
+  </ThingDef>
+
+  <ThingDef ParentName="FloorLightInverseCornerSmall">
+    <defName>FloorLightInverseCornerSmall_Blue</defName>
+    <label>floor light (small inverse corner) blue</label>
+    <description>Small inverse corner floor light integraded into the ground with a blue lamp. Waterproof and quite pretty.</description>
+    <graphicData>
+      <texPath>Things/Building/Lamps/FloorLightSmallInverseCorner_Blue</texPath>
+    </graphicData>
+    <comps>
+      <li Class="CompProperties_Glower">
+        <glowRadius>1</glowRadius>
+        <glowColor>(0,0,217,0)</glowColor>
+      </li>
+    </comps>
+    <researchPrerequisites><li>ColoredLights</li></researchPrerequisites>
+  </ThingDef>
+
+  <ThingDef ParentName="FloorLightInverseCornerSmall">
+    <defName>FloorLightInverseCornerSmall_Yellow</defName>
+    <label>floor light (small inverse corner) yellow</label>
+    <description>Small inverse corner floor light integraded into the ground with a yellow lamp. Waterproof and quite pretty.</description>
+    <graphicData>
+      <texPath>Things/Building/Lamps/FloorLightSmallInverseCorner_Yellow</texPath>
+    </graphicData>
+    <comps>
+      <li Class="CompProperties_Glower">
+        <glowRadius>1</glowRadius>
+        <glowColor>(217,217,0,0)</glowColor>
+      </li>
+    </comps>
+    <researchPrerequisites><li>ColoredLights</li></researchPrerequisites>
+  </ThingDef>
+
 
 
   <!-- FLOOR SQUARE -->

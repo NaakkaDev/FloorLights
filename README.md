@@ -9,10 +9,11 @@ Lights (lamps) that are integrated into the ground. These lamps used to have the
 - Square | Power consumption: 24 | Radius: 12
 - Plus | Power consumption: 18 | Radius: 9
 - Corner | Power consumption: 18 | Radius: 9
+- Inverse corner | Power consumption: 6 | Radius: 3
 - Stripe | Power consumption: 12 | Radius: 6
-- Small Corner | Power consumption: 7 | Radius: 5
+- Small corner | Power consumption: 7 | Radius: 5
+- Small inverse corner | Power consumption: 2 | Radius: 1
 - Small stripe | Power consumption: 4 | Radius: 3
-- Floor lamp tile | Power consumption: 2 | Radius: 1
 
 ### Colors:
 - White (normal)
