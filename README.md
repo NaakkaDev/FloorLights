@@ -11,9 +11,12 @@ Lights (lamps) that are integrated into the ground. These lamps used to have the
 - Corner | Power consumption: 18 | Radius: 9
 - Inverse corner | Power consumption: 6 | Radius: 3
 - Stripe | Power consumption: 12 | Radius: 6
+- Triangle | Power consumption: 12 | Radius: 6
 - Small corner | Power consumption: 7 | Radius: 5
 - Small inverse corner | Power consumption: 2 | Radius: 1
 - Small stripe | Power consumption: 4 | Radius: 3
+- Small middle stripe | Power consumption: 4 | Radius: 3
+- Small diagonal stripe | Power consumption: 4 | Radius: 3
 
 ### Colors:
 - White (normal)
