@@ -1,11 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
-  <name>Floor Lights - 1.0</name>
+  <name>Floor Lights</name>
   <author>Temeez</author>
-  <url>https://ludeon.com/forums/index.php?topic=9103.0</url>
+  <url>https://github.com/Temeez/FloorLights</url>
   <supportedVersions>
     <li>1.0</li>
+    <li>1.1</li>
   </supportedVersions>
+  <packageId>temeez.floorlights</packageId>
   <description>Lights (lamps) that are integrated into the ground. These lamps used to have their power cable hidden underground, but various rim-rodents kept eating them so the cable placement had to be revisited. It is possible to build on top of the floor lights.
 
 Shapes:
