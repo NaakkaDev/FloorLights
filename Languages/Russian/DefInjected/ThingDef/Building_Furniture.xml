@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+  <FloorLightSquare.label>встроенная лампа (квадрат)</FloorLightSquare.label>
+  <FloorLightSquare.description>Квадратная встроенная в пол световая панель. Водонепроницаема и довольно красива.</FloorLightSquare.description>
+  <FloorLightSquare_Purple.label>встроенная лампа (квадрат) фиолетовая</FloorLightSquare_Purple.label>
+  <FloorLightSquare_Purple.description>Квадратная встроенная в пол световая панель с фиолетовой лампой. Водонепроницаема и довольно красива.</FloorLightSquare_Purple.description>
+  <FloorLightSquare_Red.label>встроенная лампа (квадрат) красная</FloorLightSquare_Red.label>
+  <FloorLightSquare_Red.description>Квадратная встроенная в пол световая панель с красной лампой. Водонепроницаема и довольно красива.</FloorLightSquare_Red.description>
+  <FloorLightSquare_Green.label>встроенная лампа (квадрат) зелёная</FloorLightSquare_Green.label>
+  <FloorLightSquare_Green.description>Квадратная встроенная в пол световая панель с зелёной лампой. Водонепроницаема и довольно красива.</FloorLightSquare_Green.description>
+  <FloorLightSquare_Blue.label>встроенная лампа (квадрат) синяя</FloorLightSquare_Blue.label>
+  <FloorLightSquare_Blue.description>Квадратная встроенная в пол световая панель с синей лампой. Водонепроницаема и довольно красива.</FloorLightSquare_Blue.description>
+  <FloorLightSquare_Yellow.label>встроенная лампа (квадрат) жёлтая</FloorLightSquare_Yellow.label>
+  <FloorLightSquare_Yellow.description>Квадратная встроенная в пол световая панель с жёлтой лампой. Водонепроницаема и довольно красива.</FloorLightSquare_Yellow.description>
+  <FloorLightStripe.label>встроенная лампа (широкая полоса)</FloorLightStripe.label>
+  <FloorLightStripe.description>Встроенная в пол световая панель в виде широкой полосы. Водонепроницаема и довольно красива.</FloorLightStripe.description>
+  <FloorLightStripe_Purple.label>встроенная лампа (широкая полоса) фиолетовая</FloorLightStripe_Purple.label>
+  <FloorLightStripe_Purple.description>Встроенная в пол световая панель в виде широкой полосы с фиолетовой лампой. Водонепроницаема и довольно красива.</FloorLightStripe_Purple.description>
+  <FloorLightStripe_Red.label>встроенная лампа (широкая полоса) красная</FloorLightStripe_Red.label>
+  <FloorLightStripe_Red.description>Встроенная в пол световая панель в виде широкой полосы с красной лампой. Водонепроницаема и довольно красива.</FloorLightStripe_Red.description>
+  <FloorLightStripe_Green.label>встроенная лампа (широкая полоса) зелёная</FloorLightStripe_Green.label>
+  <FloorLightStripe_Green.description>Встроенная в пол световая панель в виде широкой полосы с зелёной лампой. Водонепроницаема и довольно красива.</FloorLightStripe_Green.description>
+  <FloorLightStripe_Blue.label>встроенная лампа (широкая полоса) синяя</FloorLightStripe_Blue.label>
+  <FloorLightStripe_Blue.description>Встроенная в пол световая панель в виде широкой полосы с синей лампой. Водонепроницаема и довольно красива.</FloorLightStripe_Blue.description>
+  <FloorLightStripe_Yellow.label>встроенная лампа (широкая полоса) жёлтая</FloorLightStripe_Yellow.label>
+  <FloorLightStripe_Yellow.description>Встроенная в пол световая панель в виде широкой полосы с жёлтой лампой. Водонепроницаема и довольно красива.</FloorLightStripe_Yellow.description>
+  <FloorLightSmallStripe.label>встроенная лампа (узкая полоса)</FloorLightSmallStripe.label>
+  <FloorLightSmallStripe.description>Встроенная в пол световая панель в виде узкой полосы. Водонепроницаема и довольно красива.</FloorLightSmallStripe.description>
+  <FloorLightSmallStripe_Purple.label>встроенная лампа (узкая полоса) фиолетовая</FloorLightSmallStripe_Purple.label>
+  <FloorLightSmallStripe_Purple.description>Встроенная в пол световая панель в виде узкой полосы с фиолетовой лампой. Водонепроницаема и довольно красива.</FloorLightSmallStripe_Purple.description>
+  <FloorLightSmallStripe_Red.label>встроенная лампа (узкая полоса) красная</FloorLightSmallStripe_Red.label>
+  <FloorLightSmallStripe_Red.description>Встроенная в пол световая панель в виде узкой полосы с красной лампой. Водонепроницаема и довольно красива.</FloorLightSmallStripe_Red.description>
+  <FloorLightSmallStripe_Green.label>встроенная лампа (узкая полоса) зелёная</FloorLightSmallStripe_Green.label>
+  <FloorLightSmallStripe_Green.description>Встроенная в пол световая панель в виде узкой полосы с зелёной лампой. Водонепроницаема и довольно красива.</FloorLightSmallStripe_Green.description>
+  <FloorLightSmallStripe_Blue.label>встроенная лампа (узкая полоса) синяя</FloorLightSmallStripe_Blue.label>
+  <FloorLightSmallStripe_Blue.description>Встроенная в пол световая панель в виде узкой полосы с синей лампой. Водонепроницаема и довольно красива.</FloorLightSmallStripe_Blue.description>
+  <FloorLightSmallStripe_Yellow.label>встроенная лампа (узкая полоса) жёлтая</FloorLightSmallStripe_Yellow.label>
+  <FloorLightSmallStripe_Yellow.description>Встроенная в пол световая панель в виде узкой полосы с жёлтой лампой. Водонепроницаема и довольно красива.</FloorLightSmallStripe_Yellow.description>
+  <FloorLightPlus.label>встроенная лампа (плюс)</FloorLightPlus.label>
+  <FloorLightPlus.description>Встроенная в пол световая панель в виде плюса. Водонепроницаема и довольно красива.</FloorLightPlus.description>
+  <FloorLightPlus_Purple.label>встроенная лампа (плюс) фиолетовая</FloorLightPlus_Purple.label>
+  <FloorLightPlus_Purple.description>Встроенная в пол световая панель в виде плюса с фиолетовой лампой. Водонепроницаема и довольно красива.</FloorLightPlus_Purple.description>
+  <FloorLightPlus_Red.label>встроенная лампа (плюс) красная</FloorLightPlus_Red.label>
+  <FloorLightPlus_Red.description>Встроенная в пол световая панель в виде плюса с красной лампой. Водонепроницаема и довольно красива.</FloorLightPlus_Red.description>
+  <FloorLightPlus_Green.label>встроенная лампа (плюс) зелёная</FloorLightPlus_Green.label>
+  <FloorLightPlus_Green.description>Встроенная в пол световая панель в виде плюса с зелёной лампой. Водонепроницаема и довольно красива.</FloorLightPlus_Green.description>
+  <FloorLightPlus_Blue.label>встроенная лампа (плюс) синяя</FloorLightPlus_Blue.label>
+  <FloorLightPlus_Blue.description>Встроенная в пол световая панель в виде плюса с синей лампой. Водонепроницаема и довольно красива.</FloorLightPlus_Blue.description>
+  <FloorLightPlus_Yellow.label>встроенная лампа (плюс) жёлтая</FloorLightPlus_Yellow.label>
+  <FloorLightPlus_Yellow.description>Встроенная в пол световая панель в виде плюса с жёлтой лампой. Водонепроницаема и довольно красива.</FloorLightPlus_Yellow.description>
+  <FloorLightCorner.label>встроенная лампа (широкий угол)</FloorLightCorner.label>
+  <FloorLightCorner.description>Сложенная углом из широких полос встроенная в пол световая панель. Водонепроницаема и довольно красива.</FloorLightCorner.description>
+  <FloorLightCorner_Purple.label>встроенная лампа (широкий угол) фиолетовая</FloorLightCorner_Purple.label>
+  <FloorLightCorner_Purple.description>Сложенная углом из широких полос встроенная в пол световая панель с фиолетовой лампой. Водонепроницаема и довольно красива.</FloorLightCorner_Purple.description>
+  <FloorLightCorner_Red.label>встроенная лампа (широкий угол) красная</FloorLightCorner_Red.label>
+  <FloorLightCorner_Red.description>Сложенная углом из широких полос встроенная в пол световая панель с красной лампой. Водонепроницаема и довольно красива.</FloorLightCorner_Red.description>
+  <FloorLightCorner_Green.label>встроенная лампа (широкий угол) зелёная</FloorLightCorner_Green.label>
+  <FloorLightCorner_Green.description>Сложенная углом из широких полос встроенная в пол световая панель с зелёной лампой. Водонепроницаема и довольно красива.</FloorLightCorner_Green.description>
+  <FloorLightCorner_Blue.label>встроенная лампа (широкий угол) синяя</FloorLightCorner_Blue.label>
+  <FloorLightCorner_Blue.description>Сложенная углом из широких полос встроенная в пол световая панель с синей лампой. Водонепроницаема и довольно красива.</FloorLightCorner_Blue.description>
+  <FloorLightCorner_Yellow.label>встроенная лампа (широкий угол) жёлтая</FloorLightCorner_Yellow.label>
+  <FloorLightCorner_Yellow.description>Сложенная углом из широких полос встроенная в пол световая панель с жёлтой лампой. Водонепроницаема и довольно красива.</FloorLightCorner_Yellow.description>
+  <FloorLightCornerSmall.label>встроенная лампа (узкий угол)</FloorLightCornerSmall.label>
+  <FloorLightCornerSmall.description>Сложенная углом из узких полос встроенная в пол световая панель. Водонепроницаема и довольно красива.</FloorLightCornerSmall.description>
+  <FloorLightCornerSmall_Purple.label>встроенная лампа (узкий угол) фиолетовая</FloorLightCornerSmall_Purple.label>
+  <FloorLightCornerSmall_Purple.description>Сложенная углом из узких полос встроенная в пол световая панель с фиолетовой лампой. Водонепроницаема и довольно красива.</FloorLightCornerSmall_Purple.description>
+  <FloorLightCornerSmall_Red.label>встроенная лампа (узкий угол) красная</FloorLightCornerSmall_Red.label>
+  <FloorLightCornerSmall_Red.description>Сложенная углом из узких полос встроенная в пол световая панель с красной лампой. Водонепроницаема и довольно красива.</FloorLightCornerSmall_Red.description>
+  <FloorLightCornerSmall_Green.label>встроенная лампа (узкий угол) зелёная</FloorLightCornerSmall_Green.label>
+  <FloorLightCornerSmall_Green.description>Сложенная углом из узких полос встроенная в пол световая панель с зелёной лампой. Водонепроницаема и довольно красива.</FloorLightCornerSmall_Green.description>
+  <FloorLightCornerSmall_Blue.label>встроенная лампа (узкий угол) синяя</FloorLightCornerSmall_Blue.label>
+  <FloorLightCornerSmall_Blue.description>Сложенная углом из узких полос встроенная в пол световая панель с синей лампой. Водонепроницаема и довольно красива.</FloorLightCornerSmall_Blue.description>
+  <FloorLightCornerSmall_Yellow.label>встроенная лампа (узкий угол) жёлтая</FloorLightCornerSmall_Yellow.label>
+  <FloorLightCornerSmall_Yellow.description>Сложенная углом из узких полос встроенная в пол световая панель с жёлтой лампой. Водонепроницаема и довольно красива.</FloorLightCornerSmall_Yellow.description>
+  <FloorTileLightSquare.label>квадратная встроенная лампа</FloorTileLightSquare.label>
+  <FloorTileLightSquare.description>Квадратная встроенная в пол световая панель. Почти как металлический пол, но ещё и с подсветкой! Полностью защищена от влаги. Класть другие виды напольных покрытий поверх лампы нельзя.</FloorTileLightSquare.description>
+  <FloorLightInverseCorner.label>встроенная лампа (обратный широкий угол)</FloorLightInverseCorner.label>
+  <FloorLightInverseCorner.description>Сложенная «внешним» углом встроенная в пол широкая световая панель. Водонепроницаема и довольно красива.</FloorLightInverseCorner.description>
+  <FloorLightInverseCorner_Purple.label>встроенная лампа (обратный широкий угол) фиолетовая</FloorLightInverseCorner_Purple.label>
+  <FloorLightInverseCorner_Purple.description>Сложенная «внешним» углом встроенная в пол широкая световая панель с фиолетовой лампой. Водонепроницаема и довольно красива.</FloorLightInverseCorner_Purple.description>
+  <FloorLightInverseCorner_Red.label>встроенная лампа (обратный широкий угол) красная</FloorLightInverseCorner_Red.label>
+  <FloorLightInverseCorner_Red.description>Сложенная «внешним» углом встроенная в пол широкая световая панель с красной лампой. Водонепроницаема и довольно красива.</FloorLightInverseCorner_Red.description>
+  <FloorLightInverseCorner_Green.label>встроенная лампа (обратный широкий угол) зелёная</FloorLightInverseCorner_Green.label>
+  <FloorLightInverseCorner_Green.description>Сложенная «внешним» углом встроенная в пол широкая световая панель с зелёной лампой. Водонепроницаема и довольно красива.</FloorLightInverseCorner_Green.description>
+  <FloorLightInverseCorner_Blue.label>встроенная лампа (обратный широкий угол) синяя</FloorLightInverseCorner_Blue.label>
+  <FloorLightInverseCorner_Blue.description>Сложенная «внешним» углом встроенная в пол широкая световая панель с синей лампой. Водонепроницаема и довольно красива.</FloorLightInverseCorner_Blue.description>
+  <FloorLightInverseCorner_Yellow.label>встроенная лампа (обратный широкий угол) жёлтая</FloorLightInverseCorner_Yellow.label>
+  <FloorLightInverseCorner_Yellow.description>Сложенная «внешним» углом встроенная в пол широкая световая панель с жёлтой лампой. Водонепроницаема и довольно красива.</FloorLightInverseCorner_Yellow.description>
+  <FloorLightInverseCornerSmall.label>встроенная лампа (обратный узкий угол)</FloorLightInverseCornerSmall.label>
+  <FloorLightInverseCornerSmall.description>Сложенная «внешним» углом встроенная в пол узкая световая панель. Водонепроницаема и довольно красива.</FloorLightInverseCornerSmall.description>
+  <FloorLightInverseCornerSmall_Purple.label>встроенная лампа (обратный узкий угол) фиолетовая</FloorLightInverseCornerSmall_Purple.label>
+  <FloorLightInverseCornerSmall_Purple.description>Сложенная «внешним» углом встроенная в пол узкая световая панель с фиолетовой лампой. Водонепроницаема и довольно красива.</FloorLightInverseCornerSmall_Purple.description>
+  <FloorLightInverseCornerSmall_Red.label>встроенная лампа (обратный узкий угол) красная</FloorLightInverseCornerSmall_Red.label>
+  <FloorLightInverseCornerSmall_Red.description>Сложенная «внешним» углом встроенная в пол узкая световая панель с красной лампой. Водонепроницаема и довольно красива.</FloorLightInverseCornerSmall_Red.description>
+  <FloorLightInverseCornerSmall_Green.label>встроенная лампа (обратный узкий угол) зелёная</FloorLightInverseCornerSmall_Green.label>
+  <FloorLightInverseCornerSmall_Green.description>Сложенная «внешним» углом встроенная в пол узкая световая панель с зелёной лампой. Водонепроницаема и довольно красива.</FloorLightInverseCornerSmall_Green.description>
+  <FloorLightInverseCornerSmall_Blue.label>встроенная лампа (обратный узкий угол) синяя</FloorLightInverseCornerSmall_Blue.label>
+  <FloorLightInverseCornerSmall_Blue.description>Сложенная «внешним» углом встроенная в пол узкая световая панель с синей лампой. Водонепроницаема и довольно красива.</FloorLightInverseCornerSmall_Blue.description>
+  <FloorLightInverseCornerSmall_Yellow.label>встроенная лампа (обратный узкий угол) жёлтая</FloorLightInverseCornerSmall_Yellow.label>
+  <FloorLightInverseCornerSmall_Yellow.description>Сложенная «внешним» углом встроенная в пол узкая световая панель с жёлтой лампой. Водонепроницаема и довольно красива.</FloorLightInverseCornerSmall_Yellow.description>
+  <FloorLightStripeMiddle.label>встроенная лампа (срединная полоса)</FloorLightStripeMiddle.label>
+  <FloorLightStripeMiddle.description>Встроенная в пол световая панель в виде полосы, расположенной посредине клетки. Водонепроницаема и довольно красива.</FloorLightStripeMiddle.description>
+  <FloorLightStripeMiddle_Purple.label>встроенная лампа (срединная полоса) фиолетовая</FloorLightStripeMiddle_Purple.label>
+  <FloorLightStripeMiddle_Purple.description>Встроенная в пол световая панель с фиолетовой лампой в виде полосы, расположенной посредине клетки. Водонепроницаема и довольно красива.</FloorLightStripeMiddle_Purple.description>
+  <FloorLightStripeMiddle_Red.label>встроенная лампа (срединная полоса) красная</FloorLightStripeMiddle_Red.label>
+  <FloorLightStripeMiddle_Red.description>Встроенная в пол световая панель с красной лампой в виде полосы, расположенной посредине клетки. Водонепроницаема и довольно красива.</FloorLightStripeMiddle_Red.description>
+  <FloorLightStripeMiddle_Green.label>встроенная лампа (срединная полоса) зелёная</FloorLightStripeMiddle_Green.label>
+  <FloorLightStripeMiddle_Green.description>Встроенная в пол световая панель с зелёной лампой в виде полосы, расположенной посредине клетки. Водонепроницаема и довольно красива.</FloorLightStripeMiddle_Green.description>
+  <FloorLightStripeMiddle_Blue.label>встроенная лампа (срединная полоса) синяя</FloorLightStripeMiddle_Blue.label>
+  <FloorLightStripeMiddle_Blue.description>Встроенная в пол световая панель с синей лампой в виде полосы, расположенной посредине клетки. Водонепроницаема и довольно красива.</FloorLightStripeMiddle_Blue.description>
+  <FloorLightStripeMiddle_Yellow.label>встроенная лампа (срединная полоса) жёлтая</FloorLightStripeMiddle_Yellow.label>
+  <FloorLightStripeMiddle_Yellow.description>Встроенная в пол световая панель с жёлтой лампой в виде полосы, расположенной посредине клетки. Водонепроницаема и довольно красива.</FloorLightStripeMiddle_Yellow.description>
+  <FloorLightSmallStripeMiddle.label>встроенная лампа (узкая срединная полоса)</FloorLightSmallStripeMiddle.label>
+  <FloorLightSmallStripeMiddle.description>Встроенная в пол световая панель в виде узкой полосы, расположенной посредине клетки. Водонепроницаема и довольно красива.</FloorLightSmallStripeMiddle.description>
+  <FloorLightSmallStripeMiddle_Purple.label>встроенная лампа (узкая срединная полоса) фиолетовая</FloorLightSmallStripeMiddle_Purple.label>
+  <FloorLightSmallStripeMiddle_Purple.description>Встроенная в пол световая панель с фиолетовой лампой в виде узкой полосы, расположенной посредине клетки. Водонепроницаема и довольно красива.</FloorLightSmallStripeMiddle_Purple.description>
+  <FloorLightSmallStripeMiddle_Red.label>встроенная лампа (узкая срединная полоса) красная</FloorLightSmallStripeMiddle_Red.label>
+  <FloorLightSmallStripeMiddle_Red.description>Встроенная в пол световая панель с красной лампой в виде узкой полосы, расположенной посредине клетки. Водонепроницаема и довольно красива.</FloorLightSmallStripeMiddle_Red.description>
+  <FloorLightSmallStripeMiddle_Green.label>встроенная лампа (узкая срединная полоса) зелёная</FloorLightSmallStripeMiddle_Green.label>
+  <FloorLightSmallStripeMiddle_Green.description>Встроенная в пол световая панель с зелёной лампой в виде узкой полосы, расположенной посредине клетки. Водонепроницаема и довольно красива.</FloorLightSmallStripeMiddle_Green.description>
+  <FloorLightSmallStripeMiddle_Blue.label>встроенная лампа (узкая срединная полоса) синяя</FloorLightSmallStripeMiddle_Blue.label>
+  <FloorLightSmallStripeMiddle_Blue.description>Встроенная в пол световая панель с синей лампой в виде узкой полосы, расположенной посредине клетки. Водонепроницаема и довольно красива.</FloorLightSmallStripeMiddle_Blue.description>
+  <FloorLightSmallStripeMiddle_Yellow.label>встроенная лампа (узкая срединная полоса) жёлтая</FloorLightSmallStripeMiddle_Yellow.label>
+  <FloorLightSmallStripeMiddle_Yellow.description>Встроенная в пол световая панель с жёлтой лампой в виде узкой полосы, расположенной посредине клетки. Водонепроницаема и довольно красива.</FloorLightSmallStripeMiddle_Yellow.description>
+  <FloorLightSmallStripeDiagonal.label>встроенная лампа (диагональная полоса)</FloorLightSmallStripeDiagonal.label>
+  <FloorLightSmallStripeDiagonal.description>Встроенная в пол световая панель в виде узкой полосы, расположенной диагонально. Водонепроницаема и довольно красива.</FloorLightSmallStripeDiagonal.description>
+  <FloorLightSmallStripeDiagonal_Purple.label>встроенная лампа (диагональная полоса) фиолетовая</FloorLightSmallStripeDiagonal_Purple.label>
+  <FloorLightSmallStripeDiagonal_Purple.description>Встроенная в пол световая панель с фиолетовой лампой в виде узкой полосы, расположенной диагонально. Водонепроницаема и довольно красива.</FloorLightSmallStripeDiagonal_Purple.description>
+  <FloorLightSmallStripeDiagonal_Red.label>встроенная лампа (диагональная полоса) красная</FloorLightSmallStripeDiagonal_Red.label>
+  <FloorLightSmallStripeDiagonal_Red.description>Встроенная в пол световая панель с красной лампой в виде узкой полосы, расположенной диагонально. Водонепроницаема и довольно красива.</FloorLightSmallStripeDiagonal_Red.description>
+  <FloorLightSmallStripeDiagonal_Green.label>встроенная лампа (диагональная полоса) зелёная</FloorLightSmallStripeDiagonal_Green.label>
+  <FloorLightSmallStripeDiagonal_Green.description>Встроенная в пол световая панель с зелёной лампой в виде узкой полосы, расположенной диагонально. Водонепроницаема и довольно красива.</FloorLightSmallStripeDiagonal_Green.description>
+  <FloorLightSmallStripeDiagonal_Blue.label>встроенная лампа (диагональная полоса) синяя</FloorLightSmallStripeDiagonal_Blue.label>
+  <FloorLightSmallStripeDiagonal_Blue.description>Встроенная в пол световая панель с синей лампой в виде узкой полосы, расположенной диагонально. Водонепроницаема и довольно красива.</FloorLightSmallStripeDiagonal_Blue.description>
+  <FloorLightSmallStripeDiagonal_Yellow.label>встроенная лампа (диагональная полоса) жёлтая</FloorLightSmallStripeDiagonal_Yellow.label>
+  <FloorLightSmallStripeDiagonal_Yellow.description>Встроенная в пол световая панель с жёлтой лампой в виде узкой полосы, расположенной диагонально. Водонепроницаема и довольно красива.</FloorLightSmallStripeDiagonal_Yellow.description>
+  <FloorLightTriangle.label>встроенная лампа (треугольная)</FloorLightTriangle.label>
+  <FloorLightTriangle.description>Встроенная в пол треугольная световая панель. Водонепроницаема и довольно красива.</FloorLightTriangle.description>
+  <FloorLightTriangle_Purple.label>встроенная лампа (треугольная) фиолетовая</FloorLightTriangle_Purple.label>
+  <FloorLightTriangle_Purple.description>Встроенная в пол треугольная световая панель с фиолетовой лампой. Водонепроницаема и довольно красива.</FloorLightTriangle_Purple.description>
+  <FloorLightTriangle_Red.label>встроенная лампа (треугольная) красная</FloorLightTriangle_Red.label>
+  <FloorLightTriangle_Red.description>Встроенная в пол треугольная световая панель с красной лампой. Водонепроницаема и довольно красива.</FloorLightTriangle_Red.description>
+  <FloorLightTriangle_Green.label>встроенная лампа (треугольная) зелёная</FloorLightTriangle_Green.label>
+  <FloorLightTriangle_Green.description>Встроенная в пол треугольная световая панель с зелёной лампой. Водонепроницаема и довольно красива.</FloorLightTriangle_Green.description>
+  <FloorLightTriangle_Blue.label>встроенная лампа (треугольная) синяя</FloorLightTriangle_Blue.label>
+  <FloorLightTriangle_Blue.description>Встроенная в пол треугольная световая панель с синей лампой. Водонепроницаема и довольно красива.</FloorLightTriangle_Blue.description>
+  <FloorLightTriangle_Yellow.label>встроенная лампа (треугольная) жёлтая</FloorLightTriangle_Yellow.label>
+  <FloorLightTriangle_Yellow.description>Встроенная в пол треугольная световая панель с жёлтой лампой. Водонепроницаема и довольно красива.</FloorLightTriangle_Yellow.description>
+  <FloorLightTriangleCorner.label>встроенная лампа (треугольный угол)</FloorLightTriangleCorner.label>
+  <FloorLightTriangleCorner.description>Встроенная в пол треугольная угловая световая панель. Водонепроницаема и довольно красива.</FloorLightTriangleCorner.description>
+  <FloorLightTriangleCorner_Purple.label>встроенная лампа (треугольный угол) фиолетовая</FloorLightTriangleCorner_Purple.label>
+  <FloorLightTriangleCorner_Purple.description>Встроенная в пол треугольная угловая световая панель с фиолетовой лампой. Водонепроницаема и довольно красива.</FloorLightTriangleCorner_Purple.description>
+  <FloorLightTriangleCorner_Red.label>встроенная лампа (треугольный угол) красная</FloorLightTriangleCorner_Red.label>
+  <FloorLightTriangleCorner_Red.description>Встроенная в пол треугольная угловая световая панель с красной лампой. Водонепроницаема и довольно красива.</FloorLightTriangleCorner_Red.description>
+  <FloorLightTriangleCorner_Green.label>встроенная лампа (треугольный угол) зелёная</FloorLightTriangleCorner_Green.label>
+  <FloorLightTriangleCorner_Green.description>Встроенная в пол треугольная угловая световая панель с зелёной лампой. Водонепроницаема и довольно красива.</FloorLightTriangleCorner_Green.description>
+  <FloorLightTriangleCorner_Blue.label>встроенная лампа (треугольный угол) синяя</FloorLightTriangleCorner_Blue.label>
+  <FloorLightTriangleCorner_Blue.description>Встроенная в пол треугольная угловая световая панель с синей лампой. Водонепроницаема и довольно красива.</FloorLightTriangleCorner_Blue.description>
+  <FloorLightTriangleCorner_Yellow.label>встроенная лампа (треугольный угол) жёлтая</FloorLightTriangleCorner_Yellow.label>
+  <FloorLightTriangleCorner_Yellow.description>Встроенная в пол треугольная угловая световая панель с жёлтой лампой. Водонепроницаема и довольно красива.</FloorLightTriangleCorner_Yellow.description>
+
+</LanguageData>

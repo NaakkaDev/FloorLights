@@ -25,6 +25,7 @@
     <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
     <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
     <designationCategory>Lamps</designationCategory>
+	<designatorDropdown>FloorLightSquare</designatorDropdown>
     <graphicData>
       <graphicClass>Graphic_Single</graphicClass>
       <damageData>
@@ -165,6 +166,7 @@
     <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
     <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
     <designationCategory>Lamps</designationCategory>
+	<designatorDropdown>FloorLightStripe</designatorDropdown>
     <graphicData>
       <graphicClass>Graphic_Single</graphicClass>
       <damageData>
@@ -305,6 +307,7 @@
     <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
     <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
     <designationCategory>Lamps</designationCategory>
+	<designatorDropdown>FloorLightSmallStripe</designatorDropdown>
     <graphicData>
       <graphicClass>Graphic_Single</graphicClass>
       <damageData>
@@ -445,6 +448,7 @@
     <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
     <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
     <designationCategory>Lamps</designationCategory>
+	<designatorDropdown>FloorLightPlus</designatorDropdown>
     <graphicData>
       <graphicClass>Graphic_Single</graphicClass>
       <damageData>
@@ -585,6 +589,7 @@
     <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
     <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
     <designationCategory>Lamps</designationCategory>
+	<designatorDropdown>FloorLightCorner</designatorDropdown>
     <graphicData>
       <graphicClass>Graphic_Single</graphicClass>
       <damageData>
@@ -725,6 +730,7 @@
     <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
     <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
     <designationCategory>Lamps</designationCategory>
+	<designatorDropdown>FloorLightInverseCorner</designatorDropdown>
     <graphicData>
       <graphicClass>Graphic_Single</graphicClass>
       <damageData>
@@ -865,6 +871,7 @@
     <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
     <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
     <designationCategory>Lamps</designationCategory>
+	<designatorDropdown>FloorLightCornerSmall</designatorDropdown>
     <graphicData>
       <graphicClass>Graphic_Single</graphicClass>
       <damageData>
@@ -1005,6 +1012,7 @@
     <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
     <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
     <designationCategory>Lamps</designationCategory>
+	<designatorDropdown>FloorLightInverseCornerSmall</designatorDropdown>
     <graphicData>
       <graphicClass>Graphic_Single</graphicClass>
       <damageData>
@@ -1121,6 +1129,147 @@
 
 
 
+<!-- MIDDLE STRIPE FLOOR LIGHTS -->
+
+  <ThingDef Name="FloorLightStripeMiddle" ParentName="BuildingBase" Abstract="True">
+    <thingClass>Building</thingClass>
+    <altitudeLayer>Floor</altitudeLayer>
+    <passability>Standable</passability>
+    <building>
+      <isInert>true</isInert>
+      <isEdifice>false</isEdifice>
+    </building>
+    <statBases>
+      <MaxHitPoints>75</MaxHitPoints>
+      <WorkToBuild>150</WorkToBuild>
+      <Flammability>1.0</Flammability>
+      <Beauty>1</Beauty>
+    </statBases>
+    <selectable>true</selectable>
+    <size>(1,1)</size>
+    <costList>
+      <Steel>6</Steel>
+    </costList>
+    <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+    <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+    <designationCategory>Lamps</designationCategory>
+	<designatorDropdown>FloorLightStripeMiddle</designatorDropdown>
+    <graphicData>
+      <graphicClass>Graphic_Single</graphicClass>
+      <damageData>
+        <rect>(0.2,0.2,0.6,0.6)</rect>
+      </damageData>
+    </graphicData>
+    <comps>
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerTrader</compClass>
+        <basePowerConsumption>12</basePowerConsumption>
+        <shortCircuitInRain>false</shortCircuitInRain>
+      </li>
+      <li Class="CompProperties_Flickable"/>
+    </comps>
+    <rotatable>true</rotatable>
+    <clearBuildingArea>false</clearBuildingArea>
+    <researchPrerequisites><li>Electricity</li></researchPrerequisites>
+  </ThingDef>
+
+  <ThingDef ParentName="FloorLightStripeMiddle">
+    <defName>FloorLightStripeMiddle</defName>
+    <label>floor light (middle stripe)</label>
+    <description>Middle stripe floor light integraded into the ground. Waterproof and quite pretty.</description>
+    <graphicData>
+      <texPath>Things/Building/Lamps/FloorLightStripeMiddle</texPath>
+    </graphicData>
+    <comps>
+      <li Class="CompProperties_Glower">
+        <glowRadius>6</glowRadius>
+        <glowColor>(217,217,208,0)</glowColor>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="FloorLightStripeMiddle">
+    <defName>FloorLightStripeMiddle_Purple</defName>
+    <label>floor light (middle stripe) purple</label>
+    <description>Middle stripe floor light integraded into the ground with a purple lamp. Waterproof and quite pretty.</description>
+    <graphicData>
+      <texPath>Things/Building/Lamps/FloorLightStripeMiddle_Purple</texPath>
+    </graphicData>
+    <comps>
+      <li Class="CompProperties_Glower">
+        <glowRadius>6</glowRadius>
+        <glowColor>(236,10,248,0)</glowColor>
+      </li>
+    </comps>
+    <researchPrerequisites><li>ColoredLights</li></researchPrerequisites>
+  </ThingDef>
+
+  <ThingDef ParentName="FloorLightStripeMiddle">
+    <defName>FloorLightStripeMiddle_Red</defName>
+    <label>floor light (middle stripe) red</label>
+    <description>Middle stripe floor light integraded into the ground with a red lamp. Waterproof and quite pretty.</description>
+    <graphicData>
+      <texPath>Things/Building/Lamps/FloorLightStripeMiddle_Red</texPath>
+    </graphicData>
+    <comps>
+      <li Class="CompProperties_Glower">
+        <glowRadius>6</glowRadius>
+        <glowColor>(217,0,0,0)</glowColor>
+      </li>
+    </comps>
+    <researchPrerequisites><li>ColoredLights</li></researchPrerequisites>
+  </ThingDef>
+
+  <ThingDef ParentName="FloorLightStripeMiddle">
+    <defName>FloorLightStripeMiddle_Green</defName>
+    <label>floor light (middle stripe) green</label>
+    <description>Middle stripe floor light integraded into the ground with a green lamp. Waterproof and quite pretty.</description>
+    <graphicData>
+      <texPath>Things/Building/Lamps/FloorLightStripeMiddle_Green</texPath>
+    </graphicData>
+    <comps>
+      <li Class="CompProperties_Glower">
+        <glowRadius>6</glowRadius>
+        <glowColor>(0,217,0,0)</glowColor>
+      </li>
+    </comps>
+    <researchPrerequisites><li>ColoredLights</li></researchPrerequisites>
+  </ThingDef>
+
+  <ThingDef ParentName="FloorLightStripeMiddle">
+    <defName>FloorLightStripeMiddle_Blue</defName>
+    <label>floor light (middle stripe) blue</label>
+    <description>Middle stripe floor light integraded into the ground with a blue lamp. Waterproof and quite pretty.</description>
+    <graphicData>
+      <texPath>Things/Building/Lamps/FloorLightStripeMiddle_Blue</texPath>
+    </graphicData>
+    <comps>
+      <li Class="CompProperties_Glower">
+        <glowRadius>6</glowRadius>
+        <glowColor>(0,0,217,0)</glowColor>
+      </li>
+    </comps>
+    <researchPrerequisites><li>ColoredLights</li></researchPrerequisites>
+  </ThingDef>
+
+  <ThingDef ParentName="FloorLightStripeMiddle">
+    <defName>FloorLightStripeMiddle_Yellow</defName>
+    <label>floor light (middle stripe) yellow</label>
+    <description>Middle stripe floor light integraded into the ground with a yellow lamp. Waterproof and quite pretty.</description>
+    <graphicData>
+      <texPath>Things/Building/Lamps/FloorLightStripeMiddle_Yellow</texPath>
+    </graphicData>
+    <comps>
+      <li Class="CompProperties_Glower">
+        <glowRadius>6</glowRadius>
+        <glowColor>(217,217,0,0)</glowColor>
+      </li>
+    </comps>
+    <researchPrerequisites><li>ColoredLights</li></researchPrerequisites>
+  </ThingDef>
+
+
+
 <!-- SMALL MIDDLE STRIPE FLOOR LIGHTS -->
 
   <ThingDef Name="FloorLightSmallStripeMiddle" ParentName="BuildingBase" Abstract="True">
@@ -1145,6 +1294,7 @@
     <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
     <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
     <designationCategory>Lamps</designationCategory>
+	<designatorDropdown>FloorLightSmallStripeMiddle</designatorDropdown>
     <graphicData>
       <graphicClass>Graphic_Single</graphicClass>
       <damageData>
@@ -1261,7 +1411,7 @@
 
 
 
-<!-- SMALL MIDDLE STRIPE FLOOR LIGHTS -->
+<!-- SMALL DIAGONAL STRIPE FLOOR LIGHTS -->
 
   <ThingDef Name="FloorLightSmallStripeDiagonal" ParentName="BuildingBase" Abstract="True">
     <thingClass>Building</thingClass>
@@ -1285,6 +1435,7 @@
     <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
     <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
     <designationCategory>Lamps</designationCategory>
+	<designatorDropdown>FloorLightSmallStripeDiagonal</designatorDropdown>
     <graphicData>
       <graphicClass>Graphic_Single</graphicClass>
       <damageData>
@@ -1403,6 +1554,147 @@
 
   <!-- TRIANGLE FLOOR LIGHTS -->
 
+  <ThingDef Name="FloorLightTriangleCorner" ParentName="BuildingBase" Abstract="True">
+    <thingClass>Building</thingClass>
+    <altitudeLayer>Floor</altitudeLayer>
+    <passability>Standable</passability>
+    <building>
+      <isInert>true</isInert>
+      <isEdifice>false</isEdifice>
+    </building>
+    <statBases>
+      <MaxHitPoints>75</MaxHitPoints>
+      <WorkToBuild>150</WorkToBuild>
+      <Flammability>1.0</Flammability>
+      <Beauty>1</Beauty>
+    </statBases>
+    <selectable>true</selectable>
+    <size>(1,1)</size>
+    <costList>
+      <Steel>6</Steel>
+    </costList>
+    <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+    <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+    <designationCategory>Lamps</designationCategory>
+	<designatorDropdown>FloorLightTriangleCorner</designatorDropdown>
+    <graphicData>
+      <graphicClass>Graphic_Single</graphicClass>
+      <damageData>
+        <rect>(0.2,0.2,0.6,0.6)</rect>
+      </damageData>
+    </graphicData>
+    <comps>
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerTrader</compClass>
+        <basePowerConsumption>12</basePowerConsumption>
+        <shortCircuitInRain>false</shortCircuitInRain>
+      </li>
+      <li Class="CompProperties_Flickable"/>
+    </comps>
+    <rotatable>true</rotatable>
+    <clearBuildingArea>false</clearBuildingArea>
+    <researchPrerequisites><li>Electricity</li></researchPrerequisites>
+  </ThingDef>
+
+  <ThingDef ParentName="FloorLightTriangleCorner">
+    <defName>FloorLightTriangleCorner</defName>
+    <label>floor light (stripe)</label>
+    <description>Corner triangle floor light integraded into the ground. Waterproof and quite pretty.</description>
+    <graphicData>
+      <texPath>Things/Building/Lamps/FloorLightTriangleCorner</texPath>
+    </graphicData>
+    <comps>
+      <li Class="CompProperties_Glower">
+        <glowRadius>6</glowRadius>
+        <glowColor>(217,217,208,0)</glowColor>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="FloorLightTriangleCorner">
+    <defName>FloorLightTriangleCorner_Purple</defName>
+    <label>floor light (stripe) purple</label>
+    <description>Corner triangle floor light integraded into the ground with a purple lamp. Waterproof and quite pretty.</description>
+        <graphicData>
+      <texPath>Things/Building/Lamps/FloorLightTriangleCorner_Purple</texPath>
+    </graphicData>
+    <comps>
+      <li Class="CompProperties_Glower">
+        <glowRadius>6</glowRadius>
+        <glowColor>(236,10,248,0)</glowColor>
+      </li>
+    </comps>
+    <researchPrerequisites><li>ColoredLights</li></researchPrerequisites>
+  </ThingDef>
+
+  <ThingDef ParentName="FloorLightTriangleCorner">
+    <defName>FloorLightTriangleCorner_Red</defName>
+    <label>floor light (stripe) red</label>
+    <description>Corner triangle floor light integraded into the ground with a red lamp. Waterproof and quite pretty.</description>
+    <graphicData>
+      <texPath>Things/Building/Lamps/FloorLightTriangleCorner_Red</texPath>
+    </graphicData>
+    <comps>
+      <li Class="CompProperties_Glower">
+        <glowRadius>6</glowRadius>
+        <glowColor>(217,0,0,0)</glowColor>
+      </li>
+    </comps>
+    <researchPrerequisites><li>ColoredLights</li></researchPrerequisites>
+  </ThingDef>
+
+  <ThingDef ParentName="FloorLightTriangleCorner">
+    <defName>FloorLightTriangleCorner_Green</defName>
+    <label>floor light (stripe) green</label>
+    <description>Corner triangle floor light integraded into the ground with a green lamp. Waterproof and quite pretty.</description>
+    <graphicData>
+      <texPath>Things/Building/Lamps/FloorLightTriangleCorner_Green</texPath>
+    </graphicData>
+    <comps>
+      <li Class="CompProperties_Glower">
+        <glowRadius>6</glowRadius>
+        <glowColor>(0,217,0,0)</glowColor>
+      </li>
+    </comps>
+    <researchPrerequisites><li>ColoredLights</li></researchPrerequisites>
+  </ThingDef>
+
+  <ThingDef ParentName="FloorLightTriangleCorner">
+    <defName>FloorLightTriangleCorner_Blue</defName>
+    <label>floor light (stripe) blue</label>
+    <description>Corner triangle floor light integraded into the ground with a blue lamp. Waterproof and quite pretty.</description>
+    <graphicData>
+      <texPath>Things/Building/Lamps/FloorLightTriangleCorner_Blue</texPath>
+    </graphicData>
+    <comps>
+      <li Class="CompProperties_Glower">
+        <glowRadius>6</glowRadius>
+        <glowColor>(0,0,217,0)</glowColor>
+      </li>
+    </comps>
+    <researchPrerequisites><li>ColoredLights</li></researchPrerequisites>
+  </ThingDef>
+
+  <ThingDef ParentName="FloorLightTriangleCorner">
+    <defName>FloorLightTriangleCorner_Yellow</defName>
+    <label>floor light (stripe) yellow</label>
+    <description>Corner triangle floor light integraded into the ground with a yellow lamp. Waterproof and quite pretty.</description>
+    <graphicData>
+      <texPath>Things/Building/Lamps/FloorLightTriangleCorner_Yellow</texPath>
+    </graphicData>
+    <comps>
+      <li Class="CompProperties_Glower">
+        <glowRadius>6</glowRadius>
+        <glowColor>(217,217,0,0)</glowColor>
+      </li>
+    </comps>
+    <researchPrerequisites><li>ColoredLights</li></researchPrerequisites>
+  </ThingDef>
+
+
+
+  <!-- TRIANGLE FLOOR LIGHTS -->
+
   <ThingDef Name="FloorLightTriangle" ParentName="BuildingBase" Abstract="True">
     <thingClass>Building</thingClass>
     <altitudeLayer>Floor</altitudeLayer>
@@ -1425,6 +1717,7 @@
     <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
     <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
     <designationCategory>Lamps</designationCategory>
+	<designatorDropdown>FloorLightTriangle</designatorDropdown>
     <graphicData>
       <graphicClass>Graphic_Single</graphicClass>
       <damageData>
