@@ -6,6 +6,7 @@
   <supportedVersions>
     <li>1.0</li>
     <li>1.1</li>
+    <li>1.2</li>
   </supportedVersions>
   <packageId>temeez.floorlights</packageId>
   <description>Lights (lamps) that are integrated into the ground. These lamps used to have their power cable hidden underground, but various rim-rodents kept eating them so the cable placement had to be revisited. It is possible to build on top of the floor lights.
@@ -43,6 +44,6 @@ Translations (Thank you!):
 - Chinese (Simplified): =O.W.L.S=o_Onion
 - Russian: gorynytchhero
 
-Version: 1.1.1
+Version: 1.1.2
   </description>
 </ModMetaData>
