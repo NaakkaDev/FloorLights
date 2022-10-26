@@ -29,6 +29,7 @@ Lights (lamps) that are integrated into the ground. These lamps used to have the
 - Blue
 - Yellow
 - Purple
+- Teal
 
 Special thanks to Dingo (A15) and stryth (A14) for keeping this up to date when I couldn't. :)
 
