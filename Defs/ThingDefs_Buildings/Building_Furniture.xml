@@ -140,6 +140,22 @@
     <researchPrerequisites><li>ColoredLights</li></researchPrerequisites>
   </ThingDef>
 
+  <ThingDef ParentName="FloorLightSquare">
+    <defName>FloorLightSquare_Teal</defName>
+    <label>floor light (square) teal</label>
+    <description>Square floor light integraded into the ground with a teal lamp. Waterproof and quite pretty.</description>
+    <graphicData>
+      <texPath>Things/Building/Lamps/FloorLightSquare_Teal</texPath>
+    </graphicData>
+    <comps>
+      <li Class="CompProperties_Glower">
+        <glowRadius>12</glowRadius>
+        <glowColor>(0,219,209,0)</glowColor>
+      </li>
+    </comps>
+    <researchPrerequisites><li>ColoredLights</li></researchPrerequisites>
+  </ThingDef>
+
 
 
   <!-- STRIPE FLOOR LIGHTS -->
@@ -281,6 +297,21 @@
     <researchPrerequisites><li>ColoredLights</li></researchPrerequisites>
   </ThingDef>
 
+  <ThingDef ParentName="FloorLightStripe">
+    <defName>FloorLightStripe_Teal</defName>
+    <label>floor light (stripe) teal</label>
+    <description>Stripe floor light integraded into the ground with a teal lamp. Waterproof and quite pretty.</description>
+    <graphicData>
+      <texPath>Things/Building/Lamps/FloorLightStripe_Teal</texPath>
+    </graphicData>
+    <comps>
+      <li Class="CompProperties_Glower">
+        <glowRadius>6</glowRadius>
+        <glowColor>(0,219,209,0)</glowColor>
+      </li>
+    </comps>
+    <researchPrerequisites><li>ColoredLights</li></researchPrerequisites>
+  </ThingDef>
 
 
   <!-- SMALL STRIPE FLOOR LIGHTS -->
@@ -417,6 +448,22 @@
       <li Class="CompProperties_Glower">
         <glowRadius>3</glowRadius>
         <glowColor>(217,217,0,0)</glowColor>
+      </li>
+    </comps>
+    <researchPrerequisites><li>ColoredLights</li></researchPrerequisites>
+  </ThingDef>
+
+  <ThingDef ParentName="FloorLightSmallStripe">
+    <defName>FloorLightSmallStripe_Teal</defName>
+    <label>floor light (small stripe) teal</label>
+    <description>Small stripe floor light integraded into the ground with a teal lamp. Waterproof and quite pretty.</description>
+    <graphicData>
+      <texPath>Things/Building/Lamps/FloorLightSmallStripe_Teal</texPath>
+    </graphicData>
+    <comps>
+      <li Class="CompProperties_Glower">
+        <glowRadius>3</glowRadius>
+        <glowColor>(0,219,209,0)</glowColor>
       </li>
     </comps>
     <researchPrerequisites><li>ColoredLights</li></researchPrerequisites>
@@ -563,6 +610,21 @@
     <researchPrerequisites><li>ColoredLights</li></researchPrerequisites>
   </ThingDef>
 
+  <ThingDef ParentName="FloorLightPlus">
+    <defName>FloorLightPlus_Teal</defName>
+    <label>floor light (plus) teal</label>
+    <description>Plus floor light integraded into the ground with a teal lamp. Waterproof and quite pretty.</description>
+    <graphicData>
+      <texPath>Things/Building/Lamps/FloorLightPlus_Teal</texPath>
+    </graphicData>
+    <comps>
+      <li Class="CompProperties_Glower">
+        <glowRadius>9</glowRadius>
+        <glowColor>(0,219,209,0)</glowColor>
+      </li>
+    </comps>
+    <researchPrerequisites><li>ColoredLights</li></researchPrerequisites>
+  </ThingDef>
 
 
   <!-- CORNER FLOOR LIGHTS -->
@@ -699,6 +761,22 @@
       <li Class="CompProperties_Glower">
         <glowRadius>9</glowRadius>
         <glowColor>(217,217,0,0)</glowColor>
+      </li>
+    </comps>
+    <researchPrerequisites><li>ColoredLights</li></researchPrerequisites>
+  </ThingDef>
+
+  <ThingDef ParentName="FloorLightCorner">
+    <defName>FloorLightCorner_Teal</defName>
+    <label>floor light (corner) teal</label>
+    <description>Corner floor light integraded into the ground with a teal lamp. Waterproof and quite pretty.</description>
+    <graphicData>
+      <texPath>Things/Building/Lamps/FloorLightCorner_Teal</texPath>
+    </graphicData>
+    <comps>
+      <li Class="CompProperties_Glower">
+        <glowRadius>9</glowRadius>
+        <glowColor>(0,219,209,0)</glowColor>
       </li>
     </comps>
     <researchPrerequisites><li>ColoredLights</li></researchPrerequisites>
@@ -845,6 +923,22 @@
     <researchPrerequisites><li>ColoredLights</li></researchPrerequisites>
   </ThingDef>
 
+  <ThingDef ParentName="FloorLightInverseCorner">
+    <defName>FloorLightInverseCorner_Teal</defName>
+    <label>floor light (inverse corner) teal</label>
+    <description>Inverse corner floor light integraded into the ground with a teal lamp. Waterproof and quite pretty.</description>
+    <graphicData>
+      <texPath>Things/Building/Lamps/FloorLightInverseCorner_Teal</texPath>
+    </graphicData>
+    <comps>
+      <li Class="CompProperties_Glower">
+        <glowRadius>3</glowRadius>
+        <glowColor>(0,219,209,0)</glowColor>
+      </li>
+    </comps>
+    <researchPrerequisites><li>ColoredLights</li></researchPrerequisites>
+  </ThingDef>
+
 
 
 <!-- SMALL CORNER FLOOR LIGHTS -->
@@ -981,6 +1075,22 @@
       <li Class="CompProperties_Glower">
         <glowRadius>5</glowRadius>
         <glowColor>(217,217,0,0)</glowColor>
+      </li>
+    </comps>
+    <researchPrerequisites><li>ColoredLights</li></researchPrerequisites>
+  </ThingDef>
+
+  <ThingDef ParentName="FloorLightCornerSmall">
+    <defName>FloorLightCornerSmall_Teal</defName>
+    <label>floor light (small corner) teal</label>
+    <description>Small corner floor light integraded into the ground with a teal lamp. Waterproof and quite pretty.</description>
+    <graphicData>
+      <texPath>Things/Building/Lamps/FloorLightSmallCorner_Teal</texPath>
+    </graphicData>
+    <comps>
+      <li Class="CompProperties_Glower">
+        <glowRadius>5</glowRadius>
+        <glowColor>(0,219,209,0)</glowColor>
       </li>
     </comps>
     <researchPrerequisites><li>ColoredLights</li></researchPrerequisites>
@@ -1127,6 +1237,22 @@
     <researchPrerequisites><li>ColoredLights</li></researchPrerequisites>
   </ThingDef>
 
+  <ThingDef ParentName="FloorLightInverseCornerSmall">
+    <defName>FloorLightInverseCornerSmall_Teal</defName>
+    <label>floor light (small inverse corner) teal</label>
+    <description>Small inverse corner floor light integraded into the ground with a teal lamp. Waterproof and quite pretty.</description>
+    <graphicData>
+      <texPath>Things/Building/Lamps/FloorLightSmallInverseCorner_Teal</texPath>
+    </graphicData>
+    <comps>
+      <li Class="CompProperties_Glower">
+        <glowRadius>1</glowRadius>
+        <glowColor>(0,219,209,0)</glowColor>
+      </li>
+    </comps>
+    <researchPrerequisites><li>ColoredLights</li></researchPrerequisites>
+  </ThingDef>
+
 
 
 <!-- MIDDLE STRIPE FLOOR LIGHTS -->
@@ -1263,6 +1389,22 @@
       <li Class="CompProperties_Glower">
         <glowRadius>6</glowRadius>
         <glowColor>(217,217,0,0)</glowColor>
+      </li>
+    </comps>
+    <researchPrerequisites><li>ColoredLights</li></researchPrerequisites>
+  </ThingDef>
+
+  <ThingDef ParentName="FloorLightStripeMiddle">
+    <defName>FloorLightStripeMiddle_Teal</defName>
+    <label>floor light (middle stripe) teal</label>
+    <description>Middle stripe floor light integraded into the ground with a teal lamp. Waterproof and quite pretty.</description>
+    <graphicData>
+      <texPath>Things/Building/Lamps/FloorLightStripeMiddle_Teal</texPath>
+    </graphicData>
+    <comps>
+      <li Class="CompProperties_Glower">
+        <glowRadius>6</glowRadius>
+        <glowColor>(0,219,209,0)</glowColor>
       </li>
     </comps>
     <researchPrerequisites><li>ColoredLights</li></researchPrerequisites>
@@ -1409,6 +1551,22 @@
     <researchPrerequisites><li>ColoredLights</li></researchPrerequisites>
   </ThingDef>
 
+  <ThingDef ParentName="FloorLightSmallStripeMiddle">
+    <defName>FloorLightSmallStripeMiddle_Teal</defName>
+    <label>floor light (small middle stripe) teal</label>
+    <description>Small stripe floor light integraded into the ground with a teal lamp. Waterproof and quite pretty.</description>
+    <graphicData>
+      <texPath>Things/Building/Lamps/FloorLightSmallStripeMiddle_Teal</texPath>
+    </graphicData>
+    <comps>
+      <li Class="CompProperties_Glower">
+        <glowRadius>3</glowRadius>
+        <glowColor>(0,219,209,0)</glowColor>
+      </li>
+    </comps>
+    <researchPrerequisites><li>ColoredLights</li></researchPrerequisites>
+  </ThingDef>
+
 
 
 <!-- SMALL DIAGONAL STRIPE FLOOR LIGHTS -->
@@ -1550,9 +1708,25 @@
     <researchPrerequisites><li>ColoredLights</li></researchPrerequisites>
   </ThingDef>
 
+  <ThingDef ParentName="FloorLightSmallStripeDiagonal">
+    <defName>FloorLightSmallStripeDiagonal_Teal</defName>
+    <label>floor light (small diagonal stripe) teal</label>
+    <description>Small diagonal stripe floor light integraded into the ground with a teal lamp. Waterproof and quite pretty.</description>
+    <graphicData>
+      <texPath>Things/Building/Lamps/FloorLightSmallStripeDiagonal_Teal</texPath>
+    </graphicData>
+    <comps>
+      <li Class="CompProperties_Glower">
+        <glowRadius>3</glowRadius>
+        <glowColor>(0,219,209,0)</glowColor>
+      </li>
+    </comps>
+    <researchPrerequisites><li>ColoredLights</li></researchPrerequisites>
+  </ThingDef>
 
 
-  <!-- TRIANGLE FLOOR LIGHTS -->
+
+  <!-- TRIANGLE CORNER FLOOR LIGHTS -->
 
   <ThingDef Name="FloorLightTriangleCorner" ParentName="BuildingBase" Abstract="True">
     <thingClass>Building</thingClass>
@@ -1598,7 +1772,7 @@
 
   <ThingDef ParentName="FloorLightTriangleCorner">
     <defName>FloorLightTriangleCorner</defName>
-    <label>floor light (stripe)</label>
+    <label>floor light (triangle corner)</label>
     <description>Corner triangle floor light integraded into the ground. Waterproof and quite pretty.</description>
     <graphicData>
       <texPath>Things/Building/Lamps/FloorLightTriangleCorner</texPath>
@@ -1613,7 +1787,7 @@
 
   <ThingDef ParentName="FloorLightTriangleCorner">
     <defName>FloorLightTriangleCorner_Purple</defName>
-    <label>floor light (stripe) purple</label>
+    <label>floor light (triangle corner) purple</label>
     <description>Corner triangle floor light integraded into the ground with a purple lamp. Waterproof and quite pretty.</description>
         <graphicData>
       <texPath>Things/Building/Lamps/FloorLightTriangleCorner_Purple</texPath>
@@ -1629,7 +1803,7 @@
 
   <ThingDef ParentName="FloorLightTriangleCorner">
     <defName>FloorLightTriangleCorner_Red</defName>
-    <label>floor light (stripe) red</label>
+    <label>floor light (triangle corner) red</label>
     <description>Corner triangle floor light integraded into the ground with a red lamp. Waterproof and quite pretty.</description>
     <graphicData>
       <texPath>Things/Building/Lamps/FloorLightTriangleCorner_Red</texPath>
@@ -1645,7 +1819,7 @@
 
   <ThingDef ParentName="FloorLightTriangleCorner">
     <defName>FloorLightTriangleCorner_Green</defName>
-    <label>floor light (stripe) green</label>
+    <label>floor light (triangle corner) green</label>
     <description>Corner triangle floor light integraded into the ground with a green lamp. Waterproof and quite pretty.</description>
     <graphicData>
       <texPath>Things/Building/Lamps/FloorLightTriangleCorner_Green</texPath>
@@ -1661,7 +1835,7 @@
 
   <ThingDef ParentName="FloorLightTriangleCorner">
     <defName>FloorLightTriangleCorner_Blue</defName>
-    <label>floor light (stripe) blue</label>
+    <label>floor light (triangle corner) blue</label>
     <description>Corner triangle floor light integraded into the ground with a blue lamp. Waterproof and quite pretty.</description>
     <graphicData>
       <texPath>Things/Building/Lamps/FloorLightTriangleCorner_Blue</texPath>
@@ -1677,7 +1851,7 @@
 
   <ThingDef ParentName="FloorLightTriangleCorner">
     <defName>FloorLightTriangleCorner_Yellow</defName>
-    <label>floor light (stripe) yellow</label>
+    <label>floor light (triangle corner) yellow</label>
     <description>Corner triangle floor light integraded into the ground with a yellow lamp. Waterproof and quite pretty.</description>
     <graphicData>
       <texPath>Things/Building/Lamps/FloorLightTriangleCorner_Yellow</texPath>
@@ -1686,6 +1860,22 @@
       <li Class="CompProperties_Glower">
         <glowRadius>6</glowRadius>
         <glowColor>(217,217,0,0)</glowColor>
+      </li>
+    </comps>
+    <researchPrerequisites><li>ColoredLights</li></researchPrerequisites>
+  </ThingDef>
+
+  <ThingDef ParentName="FloorLightTriangleCorner">
+    <defName>FloorLightTriangleCorner_Teal</defName>
+    <label>floor light (triangle corner) teal</label>
+    <description>Corner triangle floor light integraded into the ground with a teal lamp. Waterproof and quite pretty.</description>
+    <graphicData>
+      <texPath>Things/Building/Lamps/FloorLightTriangleCorner_Teal</texPath>
+    </graphicData>
+    <comps>
+      <li Class="CompProperties_Glower">
+        <glowRadius>6</glowRadius>
+        <glowColor>(0,219,209,0)</glowColor>
       </li>
     </comps>
     <researchPrerequisites><li>ColoredLights</li></researchPrerequisites>
@@ -1739,7 +1929,7 @@
 
   <ThingDef ParentName="FloorLightTriangle">
     <defName>FloorLightTriangle</defName>
-    <label>floor light (stripe)</label>
+    <label>floor light (triangle)</label>
     <description>Triangle floor light integraded into the ground. Waterproof and quite pretty.</description>
     <graphicData>
       <texPath>Things/Building/Lamps/FloorLightTriangle</texPath>
@@ -1754,7 +1944,7 @@
 
   <ThingDef ParentName="FloorLightTriangle">
     <defName>FloorLightTriangle_Purple</defName>
-    <label>floor light (stripe) purple</label>
+    <label>floor light (triangle) purple</label>
     <description>Triangle floor light integraded into the ground with a purple lamp. Waterproof and quite pretty.</description>
         <graphicData>
       <texPath>Things/Building/Lamps/FloorLightTriangle_Purple</texPath>
@@ -1770,7 +1960,7 @@
 
   <ThingDef ParentName="FloorLightTriangle">
     <defName>FloorLightTriangle_Red</defName>
-    <label>floor light (stripe) red</label>
+    <label>floor light (triangle) red</label>
     <description>Triangle floor light integraded into the ground with a red lamp. Waterproof and quite pretty.</description>
     <graphicData>
       <texPath>Things/Building/Lamps/FloorLightTriangle_Red</texPath>
@@ -1786,7 +1976,7 @@
 
   <ThingDef ParentName="FloorLightTriangle">
     <defName>FloorLightTriangle_Green</defName>
-    <label>floor light (stripe) green</label>
+    <label>floor light (triangle) green</label>
     <description>Triangle floor light integraded into the ground with a green lamp. Waterproof and quite pretty.</description>
     <graphicData>
       <texPath>Things/Building/Lamps/FloorLightTriangle_Green</texPath>
@@ -1802,7 +1992,7 @@
 
   <ThingDef ParentName="FloorLightTriangle">
     <defName>FloorLightTriangle_Blue</defName>
-    <label>floor light (stripe) blue</label>
+    <label>floor light (triangle) blue</label>
     <description>Triangle floor light integraded into the ground with a blue lamp. Waterproof and quite pretty.</description>
     <graphicData>
       <texPath>Things/Building/Lamps/FloorLightTriangle_Blue</texPath>
@@ -1818,7 +2008,7 @@
 
   <ThingDef ParentName="FloorLightTriangle">
     <defName>FloorLightTriangle_Yellow</defName>
-    <label>floor light (stripe) yellow</label>
+    <label>floor light (triangle) yellow</label>
     <description>Triangle floor light integraded into the ground with a yellow lamp. Waterproof and quite pretty.</description>
     <graphicData>
       <texPath>Things/Building/Lamps/FloorLightTriangle_Yellow</texPath>
@@ -1832,6 +2022,21 @@
     <researchPrerequisites><li>ColoredLights</li></researchPrerequisites>
   </ThingDef>
 
+  <ThingDef ParentName="FloorLightTriangle">
+    <defName>FloorLightTriangle_Teal</defName>
+    <label>floor light (triangle) teal</label>
+    <description>Triangle floor light integraded into the ground with a teal lamp. Waterproof and quite pretty.</description>
+    <graphicData>
+      <texPath>Things/Building/Lamps/FloorLightTriangle_Teal</texPath>
+    </graphicData>
+    <comps>
+      <li Class="CompProperties_Glower">
+        <glowRadius>6</glowRadius>
+        <glowColor>(0,219,209,0)</glowColor>
+      </li>
+    </comps>
+    <researchPrerequisites><li>ColoredLights</li></researchPrerequisites>
+  </ThingDef>
 
 
   <!-- FLOOR SQUARE -->
